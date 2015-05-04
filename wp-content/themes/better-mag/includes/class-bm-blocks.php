@@ -47,11 +47,11 @@ class BM_Blocks{
         <?php } ?>
         <a href="<?php echo home_url(); ?>" rel="home">
             <?php if( Better_Mag::get_option( 'logo_image' ) != '' ){ ?>
-            <img src="<?php echo esc_attr( Better_Mag::get_option( 'logo_image' ) ); ?>" alt="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>"
-                 <?php if( Better_Mag::get_option( 'logo_image_retina' ) != '' ){ ?>data-at2x="<?php echo Better_Mag::get_option( 'logo_image_retina' ); ?>"<?php } ?> />
-        <?php }else{
-            echo Better_Mag::get_option( 'logo_text' );
-        } ?>
+                <img src="<?php echo esc_attr( Better_Mag::get_option( 'logo_image' ) ); ?>" alt="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>"
+                     <?php if( Better_Mag::get_option( 'logo_image_retina' ) != '' ){ ?>data-at2x="<?php echo Better_Mag::get_option( 'logo_image_retina' ); ?>"<?php } ?> />
+            <?php }else{
+                echo Better_Mag::get_option( 'logo_text' );
+            } ?>
         </a>
         <?php if( is_home() ){ ?>
             </h1>
@@ -250,26 +250,26 @@ class BM_Blocks{
         }
 
         ?><article <?php post_class( Better_Mag::generator()->get_attr_class( 'blog-block ' . $class ) ); ?>>
-        <div class="row">
-            <?php if( Better_Mag::posts()->has_post_thumbnail() ){ ?>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <a class="image-link" href="<?php the_permalink(); ?>">
-                    <?php the_post_thumbnail( Better_Mag::generator()->get_attr_thumbnail_size( 'main-block' ), array( 'class' => 'img-responsive' ) );
-                    Better_Mag::generator()->blocks()->get_post_format_icon();
-                    ?>
-                </a>
-                <?php Better_Mag::generator()->blocks()->get_term_title_banner(); ?>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <?php } else { ?>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <?php } ?>
-                    <h2 class="title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-                    <?php Better_Mag::generator()->blocks()->partial_meta(); ?>
-                    <div class="summary the-content"><?php Better_Mag::posts()->excerpt( Better_Mag::generator()->get_attr( 'excerpt-length', Better_Mag::get_option( 'blog_listing_excerpt_length' ) ) ); ?></div>
-                    <?php Better_Mag::generator()->excerpt_read_more(); ?>
+            <div class="row">
+                <?php if( Better_Mag::posts()->has_post_thumbnail() ){ ?>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <a class="image-link" href="<?php the_permalink(); ?>">
+                        <?php the_post_thumbnail( Better_Mag::generator()->get_attr_thumbnail_size( 'main-block' ), array( 'class' => 'img-responsive' ) );
+                        Better_Mag::generator()->blocks()->get_post_format_icon();
+                        ?>
+                    </a>
+                    <?php Better_Mag::generator()->blocks()->get_term_title_banner(); ?>
                 </div>
-            </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <?php } else { ?>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <?php } ?>
+                        <h2 class="title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+                        <?php Better_Mag::generator()->blocks()->partial_meta(); ?>
+                        <div class="summary the-content"><?php Better_Mag::posts()->excerpt( Better_Mag::generator()->get_attr( 'excerpt-length', Better_Mag::get_option( 'blog_listing_excerpt_length' ) ) ); ?></div>
+                        <?php Better_Mag::generator()->excerpt_read_more(); ?>
+                    </div>
+                </div>
         </article>
         <?php
 
@@ -636,7 +636,7 @@ class BM_Blocks{
                     <h3 class="title"><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
                     <?php Better_Mag::generator()->blocks()->partial_meta(); ?>
                 </li>
-                <?php
+            <?php
             }
 
             ?>
@@ -677,7 +677,7 @@ class BM_Blocks{
                     <h3 class="title"><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
                     <?php Better_Mag::generator()->blocks()->partial_meta(); ?>
                 </li>
-                <?php
+            <?php
             }
 
             ?>
@@ -716,7 +716,7 @@ class BM_Blocks{
                 <li class="<?php echo Better_Mag::generator()->get_attr_class( 'clearfix' ); ?>">
                     <h3 class="title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
                 </li>
-                <?php
+            <?php
             }
 
             ?>
@@ -917,7 +917,7 @@ class BM_Blocks{
                 ''
             );
 
-            ?></section>
+        ?></section>
         <?php
 
         if( ! $echo )
@@ -936,38 +936,9 @@ class BM_Blocks{
         if( ! $echo )
             ob_start();
 
-        // TODO sua ko cho hien thi meta
         ?><div class="meta <?php echo Better_Mag::generator()->get_attr( 'meta-class', '' ); ?>">
-<!--        <span class="time"><i class="fa fa-clock-o"></i> <time datetime="--><?php //echo get_the_date(__('Y-m-d\TH:i:sP', 'better-studio')); ?><!--">--><?php //the_time( Better_Mag::get_option( 'meta_date_format' ) ); ?><!--</time></span>-->
         <?php
 
-        if( Better_Mag::get_option( 'meta_show_comment' ) && ! Better_Mag::generator()->get_attr( 'hide-meta-comment' ) ){
-            if( comments_open() ){
-                ?>
-                <span class="comments"><?php comments_popup_link( __( '<i class="fa fa-comment-o"></i> 0', 'better-studio'), __( '<i class="fa fa-comment"></i> 1', 'better-studio'), __( '<i class="fa fa-comments-o"></i> %', 'better-studio') ); ?></span>
-                <?php
-            }
-        }
-
-        if( ! Better_Mag::generator()->get_attr( 'hide-meta-review' ) ){
-
-            if( Better_Mag::review()->generator()->is_review_enabled() ){
-
-                $atts = Better_Mag::review()->generator()->prepare_rate_atts();
-//                echo Better_Mag::review()->generator()->get_rating( Better_Mag::review()->generator()->calculate_overall_rate( $atts ), $atts['type'] );
-
-            }
-
-        }
-
-        if( Better_Mag::get_option( 'meta_show_author' ) && ! Better_Mag::generator()->get_attr( 'hide-meta-author' ) ){
-            if( Better_Mag::generator()->get_attr( 'hide-meta-author-if-review' ) && Better_Mag::review()->generator()->is_review_enabled() ){
-
-            }else{
-                ?>
-<!--                <span class="author"><a href="--><?php //echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ); ?><!--" rel="author"><i class="fa fa-user"></i> --><?php //the_author(); ?><!--</a></span>-->
-            <?php }
-        }
 
         ?>
         </div>
@@ -1092,7 +1063,7 @@ class BM_Blocks{
         // Sub menu
         $sub_menu           =   Better_Mag::generator()->get_attr( 'mega-menu-sub-menu' );
 
-        // Mega menu item object
+       // Mega menu item object
         $mega_menu_item     =   Better_Mag::generator()->get_attr( 'mega-menu-item' );
 
         ?>
@@ -1227,7 +1198,7 @@ class BM_Blocks{
                             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                                 <?php Better_Mag::generator()->blocks()->block_modern(); ?>
                             </div>
-                            <?php
+                        <?php
 
                         }
 
@@ -1293,7 +1264,7 @@ class BM_Blocks{
                             <div class="col-lg-4 col-md-4 col-sm-4">
                                 <?php Better_Mag::generator()->blocks()->block_modern(); ?>
                             </div>
-                            <?php
+                        <?php
 
                         }
 
@@ -1622,7 +1593,7 @@ class BM_Blocks{
 
                                 <?php } ?>
                             </li>
-                            <?php
+                        <?php
                         }
 
                         if( Better_Mag::get_option( 'show_search_in_main_navigation' ) ){ ?>
@@ -1834,7 +1805,7 @@ class BM_Blocks{
                         </ul>
                     </div>
                 </div>
-                <?php
+            <?php
 
             }
 
@@ -1936,7 +1907,7 @@ class BM_Blocks{
                         </ul>
                     </div>
                 </div>
-                <?php
+            <?php
 
             }
 
@@ -2032,7 +2003,7 @@ class BM_Blocks{
                         </ul>
                     </div>
                 </div>
-                <?php
+            <?php
 
             }
 
@@ -2149,7 +2120,7 @@ class BM_Blocks{
                         </ul>
                     </div>
                 </div>
-                <?php
+            <?php
 
             }
 
@@ -2294,7 +2265,7 @@ class BM_Blocks{
                         </ul>
                     </div>
                 </div>
-                <?php
+            <?php
 
             }
 
@@ -2382,7 +2353,7 @@ class BM_Blocks{
                                 </ul>
                             </div>
                         </div>
-                        <?php
+                    <?php
 
                     }
 
@@ -2870,33 +2841,33 @@ class BM_Blocks{
                 ?>
 
                 <li <?php comment_class(); ?> id="li-comment-<?php comment_ID(); ?>">
-                <article id="comment-<?php comment_ID(); ?>" class="comment">
-                    <div class="comment-avatar"><?php echo get_avatar( $comment, 60 ); ?></div>
+                    <article id="comment-<?php comment_ID(); ?>" class="comment">
+                        <div class="comment-avatar"><?php echo get_avatar( $comment, 60 ); ?></div>
 
-                    <div class="comment-meta">
-                        <p class="comment-author"><?php comment_author_link(); ?></p>
-                        <a href="<?php comment_link(); ?>" class="comment-time" title="<?php comment_date(); _e(' at ', 'better-studio'); comment_time(); ?>">
-                            <time datetime="<?php comment_time('c'); ?>"><i class="fa  fa-calendar"></i> <?php comment_date( get_option( 'date_format' ) ); ?> <i class="fa fa-clock-o"></i> <?php comment_time( get_option( 'time_format' ) ); ?></time>
-                        </a>
-                    </div>
+                        <div class="comment-meta">
+                            <p class="comment-author"><?php comment_author_link(); ?></p>
+                            <a href="<?php comment_link(); ?>" class="comment-time" title="<?php comment_date(); _e(' at ', 'better-studio'); comment_time(); ?>">
+                                <time datetime="<?php comment_time('c'); ?>"><i class="fa  fa-calendar"></i> <?php comment_date( get_option( 'date_format' ) ); ?> <i class="fa fa-clock-o"></i> <?php comment_time( get_option( 'time_format' ) ); ?></time>
+                            </a>
+                        </div>
 
-                    <div class="comment-content">
-                        <div class="the-content"><?php comment_text(); ?></div>
-                        <?php if ($comment->comment_approved == '0'): ?>
-                            <em class="comment-awaiting-moderation"><?php _e( 'Your comment is awaiting moderation.', 'better-studio' ); ?></em>
-                        <?php endif; ?>
-                    </div>
+                        <div class="comment-content">
+                            <div class="the-content"><?php comment_text(); ?></div>
+                            <?php if ($comment->comment_approved == '0'): ?>
+                                <em class="comment-awaiting-moderation"><?php _e( 'Your comment is awaiting moderation.', 'better-studio' ); ?></em>
+                            <?php endif; ?>
+                        </div>
 
-                    <?php
-                    comment_reply_link( array_merge( $args, array(
-                        'reply_text' => '<i class="fa fa-reply"></i> ' . __( 'Reply', 'better-studio'),
-                        'depth'      => $depth,
-                        'max_depth'  => $args['max_depth']
-                    ) ) );
+                        <?php
+                        comment_reply_link( array_merge( $args, array(
+                            'reply_text' => '<i class="fa fa-reply"></i> ' . __( 'Reply', 'better-studio'),
+                            'depth'      => $depth,
+                            'max_depth'  => $args['max_depth']
+                        ) ) );
 
-                    edit_comment_link( ' <i class="fa fa-edit"></i> ' . __( 'Edit', 'better-studio' ), '', '' );
-                    ?>
-                </article>
+                        edit_comment_link( ' <i class="fa fa-edit"></i> ' . __( 'Edit', 'better-studio' ), '', '' );
+                        ?>
+                    </article>
                 <?php
                 break;
         endswitch;
@@ -2949,7 +2920,7 @@ class BM_Blocks{
 
             $args = array(
                 'base'    => add_query_arg('paged', '%#%'),
-                //    'format'  => '',
+            //    'format'  => '',
                 'current' => max( 1, $paged ),
                 'total'   => $total_pages,
                 'next_text' => __( 'Next', 'better-studio' ) . '<i class="fa fa-angle-right"></i>',
@@ -3057,19 +3028,19 @@ class BM_Blocks{
         if( ! $echo )
             ob_start();
 
-        ?>
-    <div class="row block-listing navigate-posts <?php echo Better_Mag::get_option( 'bm_content_post_navigation_style' ); ?>">
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 previous-box">
-            <div class="previous"><?php
+            ?>
+        <div class="row block-listing navigate-posts <?php echo Better_Mag::get_option( 'bm_content_post_navigation_style' ); ?>">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 previous-box">
+                <div class="previous"><?php
                 previous_post_link( '<span class="main-color title"><i class="fa fa-chevron-left"></i> ' . __('Previous Article', 'better-studio' ) .'</span><span class="link">%link</span>' ); ?>
+                </div>
             </div>
-        </div>
 
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="next"><?php
-                next_post_link( '<span class="main-color title">'. __( 'Next Article', 'better-studio' ) .' <i class="fa fa-chevron-right"></i></span><span class="link">%link</span>' ); ?>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="next"><?php
+            next_post_link( '<span class="main-color title">'. __( 'Next Article', 'better-studio' ) .' <i class="fa fa-chevron-right"></i></span><span class="link">%link</span>' ); ?>
+                </div>
             </div>
-        </div>
         </div><?php
 
         if( ! $echo )
@@ -3124,19 +3095,19 @@ if( ! function_exists( 'better_mag_comment' ) ):
                         <div class="comment-content">
                             <div class="the-content"><?php comment_text(); ?></div>
                             <?php if ($comment->comment_approved == '0'): ?>
-                <em class="comment-awaiting-moderation"><?php _e( 'Your comment is awaiting moderation.', 'better-studio' ); ?></em>
-            <?php endif; ?>
+                                <em class="comment-awaiting-moderation"><?php _e( 'Your comment is awaiting moderation.', 'better-studio' ); ?></em>
+                            <?php endif; ?>
                         </div>
 
                         <?php
-                comment_reply_link( array_merge( $args, array(
-                    'reply_text' => '<i class="fa fa-reply"></i> ' . __( 'Reply', 'better-studio'),
-                    'depth'      => $depth,
-                    'max_depth'  => $args['max_depth']
-                ) ) );
+                        comment_reply_link( array_merge( $args, array(
+                            'reply_text' => '<i class="fa fa-reply"></i> ' . __( 'Reply', 'better-studio'),
+                            'depth'      => $depth,
+                            'max_depth'  => $args['max_depth']
+                        ) ) );
 
-                edit_comment_link( ' <i class="fa fa-edit"></i> ' . __( 'Edit', 'better-studio' ), '', '' );
-                ?>
+                        edit_comment_link( ' <i class="fa fa-edit"></i> ' . __( 'Edit', 'better-studio' ), '', '' );
+                        ?>
                     </article>
                 <?php
                 break;
