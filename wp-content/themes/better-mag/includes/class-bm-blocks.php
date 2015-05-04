@@ -936,8 +936,9 @@ class BM_Blocks{
         if( ! $echo )
             ob_start();
 
+//        TODO sua ko cho hien thi meta
         ?><div class="meta <?php echo Better_Mag::generator()->get_attr( 'meta-class', '' ); ?>">
-        <span class="time"><i class="fa fa-clock-o"></i> <time datetime="<?php echo get_the_date(__('Y-m-d\TH:i:sP', 'better-studio')); ?>"><?php the_time( Better_Mag::get_option( 'meta_date_format' ) ); ?></time></span>
+        <!--        <span class="time"><i class="fa fa-clock-o"></i> <time datetime="--><?php //echo get_the_date(__('Y-m-d\TH:i:sP', 'better-studio')); ?><!--">--><?php //the_time( Better_Mag::get_option( 'meta_date_format' ) ); ?><!--</time></span>-->
         <?php
 
         if( Better_Mag::get_option( 'meta_show_comment' ) && ! Better_Mag::generator()->get_attr( 'hide-meta-comment' ) ){
@@ -953,7 +954,7 @@ class BM_Blocks{
             if( Better_Mag::review()->generator()->is_review_enabled() ){
 
                 $atts = Better_Mag::review()->generator()->prepare_rate_atts();
-                echo Better_Mag::review()->generator()->get_rating( Better_Mag::review()->generator()->calculate_overall_rate( $atts ), $atts['type'] );
+//                echo Better_Mag::review()->generator()->get_rating( Better_Mag::review()->generator()->calculate_overall_rate( $atts ), $atts['type'] );
 
             }
 
@@ -964,7 +965,7 @@ class BM_Blocks{
 
             }else{
                 ?>
-                <span class="author"><a href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ); ?>" rel="author"><i class="fa fa-user"></i> <?php the_author(); ?></a></span>
+                <!--                <span class="author"><a href="--><?php //echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ); ?><!--" rel="author"><i class="fa fa-user"></i> --><?php //the_author(); ?><!--</a></span>-->
             <?php }
         }
 
