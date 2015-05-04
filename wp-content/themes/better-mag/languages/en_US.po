@@ -1,0 +1,5987 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BetterMag v1.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-11-16 01:23:10+0000\n"
+"Last-Translator: BetterStudio <info@betterstudio.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:13
+#@ better-studio
+msgid "We're sorry, but we can't find the page you were looking for. It's probably some thing we've done wrong but now we know about it and we'll try to fix it. In the meantime, try one of these options:"
+msgstr ""
+
+#: 404.php:16
+#@ better-studio
+msgid "Go to Previous Page"
+msgstr ""
+
+#: 404.php:19
+#@ better-studio
+msgid "Go to Homepage"
+msgstr ""
+
+#: 404.php:28
+#@ better-studio
+msgid "Search"
+msgstr ""
+
+#: archive.php:20
+#, php-format
+#@ better-studio
+msgctxt "category archives title"
+msgid "Browsing: %s"
+msgstr ""
+
+#: archive.php:29
+#, php-format
+#@ better-studio
+msgctxt "tag archives title"
+msgid "Browsing: %s"
+msgstr ""
+
+#: archive.php:34
+#, php-format
+#@ better-studio
+msgctxt "custom taxonomies archives title"
+msgid "Browsing: %s"
+msgstr ""
+
+#: archive.php:43
+#, php-format
+#@ better-studio
+msgid "Search Results: %s (%s)"
+msgstr ""
+
+#: archive.php:48
+#, php-format
+#@ better-studio
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: archive.php:53
+#, php-format
+#@ better-studio
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: archive.php:53
+#@ better-studio
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: archive.php:58
+#, php-format
+#@ better-studio
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: archive.php:58
+#: includes/libs/better-framework/libs/class-bf-breadcrumb.php:752
+#: includes/libs/better-framework/libs/class-bf-breadcrumb.php:782
+#: includes/libs/better-framework/libs/class-bf-breadcrumb.php:810
+#: includes/libs/better-framework/libs/class-bf-breadcrumb.php:838
+#: includes/libs/better-framework/libs/class-bf-breadcrumb.php:1030
+#@ better-studio
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: archive.php:71
+#: archive.php:80
+#@ better-studio
+msgid "Nothing Found!"
+msgstr ""
+
+#: archive.php:73
+#@ better-studio
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr ""
+
+#: archive.php:82
+#@ better-studio
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr ""
+
+#: bbpress/form-topic.php:30
+#, php-format
+#@ better-studio
+msgctxt "bbpress"
+msgid "Now Editing &ldquo;%s&rdquo;"
+msgstr ""
+
+#: bbpress/form-topic.php:32
+#, php-format
+#@ better-studio
+msgctxt "bbpress"
+msgid "Create New Topic in &ldquo;%s&rdquo;"
+msgstr ""
+
+#: bbpress/form-topic.php:32
+#@ better-studio
+msgctxt "bbpress"
+msgid "Create New Topic"
+msgstr ""
+
+#: bbpress/form-topic.php:40
+#@ better-studio
+msgctxt "bbpress"
+msgid "This forum is marked as closed to new topics, however your posting capabilities still allow you to do so."
+msgstr ""
+
+#: bbpress/form-topic.php:46
+#@ better-studio
+msgctxt "bbpress"
+msgid "Your account has the ability to post unrestricted HTML content."
+msgstr ""
+
+#: bbpress/form-topic.php:57
+#, php-format
+#@ better-studio
+msgctxt "bbpress"
+msgid "Topic Title (Maximum Length: %d):"
+msgstr ""
+
+#: bbpress/form-topic.php:71
+#@ better-studio
+msgctxt "bbpress"
+msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes:"
+msgstr ""
+
+#: bbpress/form-topic.php:82
+#@ better-studio
+msgctxt "bbpress"
+msgid "Topic Tags:"
+msgstr ""
+
+#: bbpress/form-topic.php:95
+#@ better-studio
+msgctxt "bbpress"
+msgid "Forum:"
+msgstr ""
+
+#: bbpress/form-topic.php:98
+#@ better-studio
+msgctxt "bbpress"
+msgid "(No Forum)"
+msgstr ""
+
+#: bbpress/form-topic.php:114
+#@ better-studio
+msgctxt "bbpress"
+msgid "Topic Type:"
+msgstr ""
+
+#: bbpress/form-topic.php:126
+#@ better-studio
+msgctxt "bbpress"
+msgid "Topic Status:"
+msgstr ""
+
+#: bbpress/form-topic.php:145
+#@ better-studio
+msgctxt "bbpress"
+msgid "Notify the author of follow-up replies via email"
+msgstr ""
+
+#: bbpress/form-topic.php:149
+#@ better-studio
+msgctxt "bbpress"
+msgid "Notify me of follow-up replies via email"
+msgstr ""
+
+#: bbpress/form-topic.php:165
+#@ better-studio
+msgctxt "bbpress"
+msgid "Keep a log of this edit:"
+msgstr ""
+
+#: bbpress/form-topic.php:169
+#@ better-studio
+msgctxt "bbpress"
+msgid "Optional reason for editing:"
+msgstr ""
+
+#: bbpress/form-topic.php:184
+#@ better-studio
+msgctxt "bbpress"
+msgid "Submit"
+msgstr ""
+
+#: bbpress/form-topic.php:207
+#, php-format
+#@ better-studio
+msgctxt "bbpress"
+msgid "The forum &#8216;%s&#8217; is closed to new topics and replies."
+msgstr ""
+
+#: bbpress/form-topic.php:215
+#@ better-studio
+msgctxt "bbpress"
+msgid "You cannot create new topics."
+msgstr ""
+
+#: bbpress/form-topic.php:215
+#@ better-studio
+msgctxt "bbpress"
+msgid "You must be logged in to create new topics."
+msgstr ""
+
+#: bbpress/loop-forums.php:23
+#: bbpress/loop-topics.php:24
+#@ better-studio
+msgctxt "bbpress"
+msgid "Topics"
+msgstr ""
+
+#: bbpress/loop-forums.php:24
+#: bbpress/loop-search-topic.php:112
+#: bbpress/loop-single-topic.php:110
+#: bbpress/loop-topics.php:25
+#@ better-studio
+msgctxt "bbpress"
+msgid "Replies"
+msgstr ""
+
+#: bbpress/loop-forums.php:24
+#: bbpress/loop-search-topic.php:112
+#: bbpress/loop-single-topic.php:110
+#: bbpress/loop-topics.php:25
+#@ better-studio
+msgctxt "bbpress"
+msgid "Posts"
+msgstr ""
+
+#: bbpress/loop-forums.php:25
+#: bbpress/loop-topics.php:23
+#@ better-studio
+msgctxt "bbpress"
+msgid "Freshness"
+msgstr ""
+
+#: bbpress/loop-replies.php:14
+#@ better-studio
+msgctxt "bbpress"
+msgid "Posted In: "
+msgstr ""
+
+#: bbpress/loop-search-forum.php:51
+#: bbpress/loop-single-forum.php:52
+#@ better-studio
+msgctxt "bbpress"
+msgid "topics"
+msgstr ""
+
+#: bbpress/loop-search-forum.php:52
+#: bbpress/loop-single-forum.php:53
+#@ better-studio
+msgctxt "bbpress"
+msgid "replies"
+msgstr ""
+
+#: bbpress/loop-search-forum.php:52
+#: bbpress/loop-single-forum.php:53
+#@ better-studio
+msgctxt "bbpress"
+msgid "posts"
+msgstr ""
+
+#: bbpress/loop-search-forum.php:60
+#: bbpress/loop-single-forum.php:61
+#@ better-studio
+msgctxt "bbPress"
+msgid "by"
+msgstr ""
+
+#: bbpress/loop-search-reply.php:38
+#: bbpress/loop-single-reply.php:35
+#@ better-studio
+msgctxt "bbpress"
+msgid "On"
+msgstr ""
+
+#: bbpress/loop-search-reply.php:60
+#: bbpress/loop-single-reply.php:57
+#@ better-studio
+msgctxt "bbpress"
+msgid "in reply to: "
+msgstr ""
+
+#: bbpress/loop-search-topic.php:76
+#: bbpress/loop-single-topic.php:74
+#, php-format
+#@ better-studio
+msgctxt "bbpress"
+msgid "Started by: %1$s"
+msgstr ""
+
+#: bbpress/loop-search-topic.php:84
+#: bbpress/loop-single-topic.php:82
+#, php-format
+#@ better-studio
+msgctxt "bbpress"
+msgid "in: <a href=\"%1$s\">%2$s</a>"
+msgstr ""
+
+#: bbpress/loop-search-topic.php:92
+#: bbpress/loop-single-topic.php:90
+#@ better-studio
+msgctxt "bbpress"
+msgid "Last post:"
+msgstr ""
+
+#: bbpress/loop-search-topic.php:111
+#: bbpress/loop-single-topic.php:109
+#: bbpress/loop-topics.php:25
+#@ better-studio
+msgctxt "bbpress"
+msgid "Voices"
+msgstr ""
+
+#: comments.php:2
+#@ better-studio
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:32
+#@ better-studio
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:33
+#@ better-studio
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:38
+#@ better-studio
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:42
+#@ better-studio
+msgid "Leave A Reply"
+msgstr ""
+
+#: comments.php:43
+#, php-format
+#@ better-studio
+msgid "Reply To %s"
+msgstr ""
+
+#: comments.php:47
+#, php-format
+#@ better-studio
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr ""
+
+#: comments.php:50
+#@ better-studio
+msgid "Your Comment"
+msgstr ""
+
+#: comments.php:52
+#@ better-studio
+msgid "Post Comment"
+msgstr ""
+
+#: comments.php:53
+#@ better-studio
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:55
+#@ better-studio
+msgid "Your Name"
+msgstr ""
+
+#: comments.php:56
+#@ better-studio
+msgid "Your Email"
+msgstr ""
+
+#: comments.php:57
+#@ better-studio
+msgid "Your Website"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:340
+#@ better-studio
+msgid "General Post Options"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:350
+#@ better-studio
+msgid "Is featured post!?"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:357
+#@ better-studio
+msgid "Disable Featured Image/Video?"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:364
+#@ better-studio
+msgid "Featured Video Code"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:366
+#@ better-studio
+msgid "Paste YouTube, Vimeo or self hosted video URL then player automatically will be generated."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:374
+#@ better-studio
+msgid "Show Gallery Images as Background Slide Show!?"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:376
+#@ better-studio
+msgid "Enabling this will be shows images of first gallery in post as background slide show in post single page"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:391
+#@ better-studio
+msgid "Hide Post Title?"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:391
+#@ better-studio
+msgid "Hide Page Title?"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:399
+#@ better-studio
+msgid "Hide Post Meta?"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:401
+#@ better-studio
+msgid "Enabling this will hides post meta (date, author etc) in post single page."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:407
+#@ better-studio
+msgid "Post Sidebar Layout"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:407
+#@ better-studio
+msgid "Page Sidebar Layout"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:412
+#@ better-studio
+msgid "Select the sidebar layout for page. <br><br> <strong>Note:</strong> Default option image shows what style selected for default sidebar layout in theme options."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:416
+#: includes/class-better-mag-bf-setup.php:443
+#: includes/class-better-mag-bf-setup.php:568
+#: includes/class-better-mag-bf-setup.php:595
+#: includes/class-better-mag-bf-setup.php:732
+#: includes/class-better-mag-bf-setup.php:1122
+#: includes/class-better-mag-bf-setup.php:1164
+#: includes/class-better-mag-bf-setup.php:1219
+#: includes/class-better-mag-bf-setup.php:1289
+#: includes/class-better-mag-bf-setup.php:1321
+#: includes/class-better-mag-bf-setup.php:1398
+#: includes/class-better-mag-bf-setup.php:1430
+#@ better-studio
+msgid "Default"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:420
+#: includes/class-better-mag-bf-setup.php:572
+#: includes/class-better-mag-bf-setup.php:1126
+#: includes/class-better-mag-bf-setup.php:1552
+#: includes/class-better-mag-bf-setup.php:7621
+#@ better-studio
+msgid "Left Sidebar"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:424
+#: includes/class-better-mag-bf-setup.php:576
+#: includes/class-better-mag-bf-setup.php:1130
+#: includes/class-better-mag-bf-setup.php:1556
+#: includes/class-better-mag-bf-setup.php:7625
+#@ better-studio
+msgid "Right Sidebar"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:428
+#: includes/class-better-mag-bf-setup.php:580
+#: includes/class-better-mag-bf-setup.php:1134
+#: includes/class-better-mag-bf-setup.php:1560
+#: includes/class-better-mag-bf-setup.php:7629
+#@ better-studio
+msgid "No Sidebar"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:434
+#: includes/class-better-mag-bf-setup.php:586
+#: includes/libs/review/class-betterstudio-review.php:176
+#@ better-studio
+msgid "Layout Style"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:439
+#: includes/class-better-mag-bf-setup.php:591
+#@ better-studio
+msgid "Select page layout style. <br><br> <strong>Note:</strong> Default option image shows default style that selected for page in theme options."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:447
+#: includes/class-better-mag-bf-setup.php:599
+#: includes/class-better-mag-bf-setup.php:1325
+#: includes/class-better-mag-bf-setup.php:1434
+#: includes/class-better-mag-bf-setup.php:1529
+#: includes/class-better-mag-bf-setup.php:1784
+#@ better-studio
+msgid "Full Width"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:451
+#: includes/class-better-mag-bf-setup.php:603
+#: includes/class-better-mag-bf-setup.php:1329
+#: includes/class-better-mag-bf-setup.php:1438
+#: includes/class-better-mag-bf-setup.php:1533
+#: includes/class-better-mag-bf-setup.php:1780
+#@ better-studio
+msgid "Boxed"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:455
+#: includes/class-better-mag-bf-setup.php:607
+#: includes/class-better-mag-bf-setup.php:1333
+#: includes/class-better-mag-bf-setup.php:1442
+#: includes/class-better-mag-bf-setup.php:1537
+#@ better-studio
+msgid "Boxed (Padded)"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:461
+#: includes/class-better-mag-bf-setup.php:612
+#@ better-studio
+msgid "Page Background Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:466
+#: includes/class-better-mag-bf-setup.php:617
+#: includes/class-better-mag-bf-setup.php:1344
+#: includes/class-better-mag-bf-setup.php:1453
+#: includes/class-better-mag-bf-setup.php:4838
+#@ better-studio
+msgid "Setting a body background image below will override it."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:481
+#: includes/class-better-mag-bf-setup.php:630
+#@ better-studio
+msgid "Page Background Image"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:486
+#: includes/class-better-mag-bf-setup.php:524
+#: includes/class-better-mag-bf-setup.php:635
+#: includes/class-better-mag-bf-setup.php:673
+#: includes/class-better-mag-bf-setup.php:1362
+#: includes/class-better-mag-bf-setup.php:1471
+#: includes/class-better-mag-bf-setup.php:4901
+#: includes/class-better-mag-bf-setup.php:5089
+#: includes/class-better-mag-bf-setup.php:6707
+#@ better-studio
+msgid "Upload Image"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:487
+#: includes/class-better-mag-bf-setup.php:636
+#: includes/class-better-mag-bf-setup.php:1363
+#: includes/class-better-mag-bf-setup.php:1472
+#: includes/class-better-mag-bf-setup.php:4902
+#@ better-studio
+msgid "Use light patterns in non-boxed layout. For patterns, use a repeating background. Use photo to fully cover the background with an image. Note that it will override the background color option."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:500
+#: includes/class-better-mag-bf-setup.php:649
+#: includes/class-better-mag-bf-setup.php:5062
+#@ better-studio
+msgid "Header Background Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:505
+#: includes/class-better-mag-bf-setup.php:654
+#: includes/class-better-mag-bf-setup.php:5076
+#@ better-studio
+msgid "Setting a header background pattern below will override it."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:519
+#: includes/class-better-mag-bf-setup.php:668
+#: includes/class-better-mag-bf-setup.php:5085
+#@ better-studio
+msgid "Header Background Image"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:525
+#: includes/class-better-mag-bf-setup.php:674
+#@ better-studio
+msgid "Please use a background pattern that can be repeated. Note that it will override the header background color option."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:540
+#@ better-studio
+msgid "Page Layout Style Options"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:559
+#@ better-studio
+msgid "Product Sidebar Layout"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:564
+#@ better-studio
+msgid "Select the sidebar layout for product. <br><br> <strong>Note:</strong> Default option image shows what style selected for default sidebar layout in theme options."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:689
+#@ better-studio
+msgid "Product Layout Style Options"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:708
+#@ better-studio
+msgid "Show Slider"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:715
+#: includes/class-better-mag-bf-setup.php:1147
+#: includes/class-better-mag-bf-setup.php:1857
+#@ better-studio
+msgid "Just Featured Posts in Slider?"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:719
+#@ better-studio
+msgid "Turn Off for showing latest posts in slider or On for showing posts that specified as featured posts in slider."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:723
+#@ better-studio
+msgid "Slider Layout Style"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:736
+#: includes/class-better-mag-bf-setup.php:1168
+#: includes/class-better-mag-bf-setup.php:1223
+#: includes/class-better-mag-bf-setup.php:1874
+#: includes/class-better-mag-bf-setup.php:2207
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-twitter-shortcode.php:272
+#: includes/libs/better-framework/widget/widgets/class-bf-twitter-widget.php:29
+#@ better-studio
+msgid "Style 1"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:740
+#: includes/class-better-mag-bf-setup.php:1172
+#: includes/class-better-mag-bf-setup.php:1227
+#: includes/class-better-mag-bf-setup.php:1878
+#: includes/class-better-mag-bf-setup.php:2211
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-twitter-shortcode.php:276
+#: includes/libs/better-framework/widget/widgets/class-bf-twitter-widget.php:33
+#@ better-studio
+msgid "Style 2"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:744
+#: includes/class-better-mag-bf-setup.php:1176
+#: includes/class-better-mag-bf-setup.php:1231
+#: includes/class-better-mag-bf-setup.php:1882
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-twitter-shortcode.php:280
+#: includes/libs/better-framework/widget/widgets/class-bf-twitter-widget.php:37
+#@ better-studio
+msgid "Style 3"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:748
+#: includes/class-better-mag-bf-setup.php:1180
+#: includes/class-better-mag-bf-setup.php:1235
+#: includes/class-better-mag-bf-setup.php:1886
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-twitter-shortcode.php:284
+#: includes/libs/better-framework/widget/widgets/class-bf-twitter-widget.php:41
+#@ better-studio
+msgid "Style 4"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:752
+#: includes/class-better-mag-bf-setup.php:1184
+#: includes/class-better-mag-bf-setup.php:1239
+#: includes/class-better-mag-bf-setup.php:1890
+#@ better-studio
+msgid "Style 5"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:756
+#: includes/class-better-mag-bf-setup.php:1188
+#: includes/class-better-mag-bf-setup.php:1243
+#: includes/class-better-mag-bf-setup.php:1894
+#@ better-studio
+msgid "Style 6"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:760
+#: includes/class-better-mag-bf-setup.php:1192
+#: includes/class-better-mag-bf-setup.php:1247
+#: includes/class-better-mag-bf-setup.php:1898
+#@ better-studio
+msgid "Style 7"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:764
+#: includes/class-better-mag-bf-setup.php:1196
+#: includes/class-better-mag-bf-setup.php:1251
+#: includes/class-better-mag-bf-setup.php:1902
+#@ better-studio
+msgid "Style 8"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:768
+#: includes/class-better-mag-bf-setup.php:1200
+#: includes/class-better-mag-bf-setup.php:1255
+#: includes/class-better-mag-bf-setup.php:1906
+#@ better-studio
+msgid "Style 9"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:772
+#: includes/class-better-mag-bf-setup.php:1204
+#: includes/class-better-mag-bf-setup.php:1259
+#: includes/class-better-mag-bf-setup.php:1910
+#@ better-studio
+msgid "Style 10"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:777
+#: includes/class-better-mag-bf-setup.php:1265
+#: includes/class-better-mag-bf-setup.php:6676
+#@ better-studio
+msgid "Slider Background Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:779
+#: includes/class-better-mag-bf-setup.php:1267
+#@ better-studio
+msgid "Customize slider background color."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:791
+#: includes/class-better-mag-bf-setup.php:1916
+#@ better-studio
+msgid "Slider Categories"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:795
+#@ better-studio
+msgid "Select categories for showing post of them in slider. you can use combination of multiple category and tag."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:796
+#: includes/class-better-mag-bf-setup.php:1920
+#: includes/shortcodes/content-listing/class-bm-content-tab-listing-shortcode.php:286
+#@ better-studio
+msgid "Search and find category..."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:802
+#: includes/class-better-mag-bf-setup.php:1926
+#@ better-studio
+msgid "Slider Tags"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:806
+#@ better-studio
+msgid "Select tags for showing post of them in slider. you can use combination of multiple category and tag."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:807
+#: includes/class-better-mag-bf-setup.php:1930
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:305
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:400
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:495
+#: includes/shortcodes/content-listing/class-bm-content-listing-17-shortcode.php:233
+#: includes/shortcodes/content-listing/class-bm-content-listing-17-shortcode.php:328
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:287
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:383
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:479
+#: includes/shortcodes/content-listing/class-bm-content-listing-19-shortcode.php:232
+#: includes/shortcodes/content-listing/class-bm-content-listing-19-shortcode.php:328
+#: includes/shortcodes/content-listing/class-bm-content-tab-listing-shortcode.php:298
+#@ better-studio
+msgid "Search and find tag..."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:813
+#@ better-studio
+msgid "Page Slider"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:844
+#@ better-studio
+msgid "Category Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:849
+#@ better-studio
+msgid "This color will be used in several areas such as navigation and listing blocks."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1113
+#@ better-studio
+msgid "Sidebar Layout"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1118
+#@ better-studio
+msgid "Select the sidebar layout to use by default. This can be overridden per-page, per-post and per category."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1140
+#@ better-studio
+msgid "Show Slider in Archive"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1151
+#@ better-studio
+msgid "Turn Off for showing latest posts of category in slider or On for showing posts that specified as featured post in this category as slider."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1155
+#: includes/class-better-mag-bf-setup.php:1210
+#@ better-studio
+msgid "Category Archive Slider Layout Style"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1280
+#@ better-studio
+msgid "Category Listing Style"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1285
+#@ better-studio
+msgid "This style used when browsing category archive page. Default option image shows what default style selected in theme options."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1293
+#: includes/class-better-mag-bf-setup.php:1402
+#: includes/class-better-mag-bf-setup.php:2004
+#: includes/class-better-mag-bf-setup.php:2030
+#: includes/class-better-mag-bf-setup.php:2056
+#: includes/class-better-mag-bf-setup.php:2082
+#@ better-studio
+msgid "Blog Listing"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1297
+#: includes/class-better-mag-bf-setup.php:1406
+#: includes/class-better-mag-bf-setup.php:2008
+#: includes/class-better-mag-bf-setup.php:2034
+#: includes/class-better-mag-bf-setup.php:2060
+#: includes/class-better-mag-bf-setup.php:2086
+#@ better-studio
+msgid "Modern Listing"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1301
+#: includes/class-better-mag-bf-setup.php:1410
+#: includes/class-better-mag-bf-setup.php:2012
+#: includes/class-better-mag-bf-setup.php:2038
+#: includes/class-better-mag-bf-setup.php:2064
+#: includes/class-better-mag-bf-setup.php:2090
+#@ better-studio
+msgid "Highlight Listing"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1305
+#: includes/class-better-mag-bf-setup.php:1414
+#: includes/class-better-mag-bf-setup.php:2016
+#: includes/class-better-mag-bf-setup.php:2042
+#: includes/class-better-mag-bf-setup.php:2068
+#: includes/class-better-mag-bf-setup.php:2094
+#@ better-studio
+msgid "Classic Listing"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1311
+#@ better-studio
+msgid "Category Archive Layout Style"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1317
+#: includes/class-better-mag-bf-setup.php:1426
+#@ better-studio
+msgid "Select whether you want a boxed or a full width layout. Default option image shows what default style selected in theme options."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1339
+#: includes/class-better-mag-bf-setup.php:1448
+#: includes/class-better-mag-bf-setup.php:4818
+#@ better-studio
+msgid "Body Background Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1358
+#: includes/class-better-mag-bf-setup.php:1467
+#: includes/class-better-mag-bf-setup.php:4897
+#@ better-studio
+msgid "Body Background Image"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1389
+#@ better-studio
+msgid "Tag Listing Style"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1394
+#@ better-studio
+msgid "This style used when browsing tag archive page. Default option image shows what default style selected in theme options."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1420
+#@ better-studio
+msgid "Tag Archive Layout Style"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1513
+#: includes/class-better-mag-bf-setup.php:2099
+#@ better-studio
+msgid "General"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1520
+#@ better-studio
+msgid "General Layout Style"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1525
+#@ better-studio
+msgid "Select the layout you want, whether a boxed or a full width one. It affects every page and the whole layout. This option can be overridden on every page, post, category and tag."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1543
+#@ better-studio
+msgid "General Sidebar Layout"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1548
+#@ better-studio
+msgid "Select the general sidebar you want to use by default. This option can be overridden on every page, post, category and tag."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1566
+#@ better-studio
+msgid "Effects and Animations"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1571
+#@ better-studio
+msgid "Enable Show/Hide Animation on Scroll"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1575
+#@ better-studio
+msgid "Enabeling this option will add fade-in animation to images and some other elements when they are in browser view report area."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1578
+#@ better-studio
+msgid "Enable Image Zoom Animation on Hover"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1582
+#@ better-studio
+msgid "Enabling this option will add zoom-in animation for listings and elements main image hover."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1606
+#@ better-studio
+msgid "Favicons"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1611
+#@ better-studio
+msgid "Favicon (16x16)"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1615
+#@ better-studio
+msgid "Default Favicon. 16px x 16px"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1616
+#: includes/class-better-mag-bf-setup.php:1627
+#: includes/class-better-mag-bf-setup.php:1638
+#: includes/class-better-mag-bf-setup.php:1649
+#: includes/class-better-mag-bf-setup.php:1660
+#@ better-studio
+msgid "Select or Upload Favicon"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1617
+#: includes/class-better-mag-bf-setup.php:1628
+#: includes/class-better-mag-bf-setup.php:1639
+#: includes/class-better-mag-bf-setup.php:1650
+#: includes/class-better-mag-bf-setup.php:1661
+#@ better-studio
+msgid "Select Favicon"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1618
+#: includes/class-better-mag-bf-setup.php:1629
+#: includes/class-better-mag-bf-setup.php:1640
+#: includes/class-better-mag-bf-setup.php:1651
+#: includes/class-better-mag-bf-setup.php:1662
+#@ better-studio
+msgid "Upload Favicon"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1619
+#: includes/class-better-mag-bf-setup.php:1630
+#: includes/class-better-mag-bf-setup.php:1641
+#: includes/class-better-mag-bf-setup.php:1652
+#: includes/class-better-mag-bf-setup.php:1663
+#@ better-studio
+msgid "Remove Favicon"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1622
+#@ better-studio
+msgid "Apple iPhone Icon (57x57)"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1625
+#@ better-studio
+msgid "Icon for Classic iPhone"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1633
+#@ better-studio
+msgid "Apple iPhone Retina Icon (114x114)"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1636
+#@ better-studio
+msgid "Icon for Retina iPhone"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1644
+#@ better-studio
+msgid "Apple iPad Icon (72x72)"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1647
+#@ better-studio
+msgid "Icon for Classic iPad"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1655
+#@ better-studio
+msgid "Apple iPad Retina Icon (144x144)"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1658
+#@ better-studio
+msgid "Icon for Retina iPad"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1670
+#: includes/class-better-mag-bf-setup.php:4990
+#@ better-studio
+msgid "Header"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1677
+#@ better-studio
+msgid "Logo"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1682
+#@ better-studio
+msgid "Logo Position"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1684
+#@ better-studio
+msgid "Select logo position in header. This will affect on \"Logo Aside\" sidebar location. If you select centered Logo Position the \"Logo Aside\" widget area will be removed."
+msgstr ""
+
+#. translators: For RTL Languages in this situation translate Left to Right and Right to Left!.
+#: includes/class-better-mag-bf-setup.php:1692
+#: includes/class-better-mag-bf-setup.php:8070
+#@ better-studio
+msgid "Left"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1696
+#@ better-studio
+msgid "Center"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1700
+#: includes/class-better-mag-bf-setup.php:8071
+#@ better-studio
+msgid "Right"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1706
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-about-shortcode.php:124
+#@ better-studio
+msgid "Logo Text"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1708
+#@ better-studio
+msgid "The desired text will be used if logo images are not provided below."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1714
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-about-shortcode.php:132
+#@ better-studio
+msgid "Logo Image"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1716
+#@ better-studio
+msgid "By default, a text-based logo is created using your site title. But you can also upload an image-based logo here."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1719
+#@ better-studio
+msgid "Select or Upload Logo"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1720
+#@ better-studio
+msgid "Select Image"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1721
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-about-shortcode.php:135
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-about-shortcode.php:137
+#: includes/libs/better-framework/widget/widgets/class-bf-about-widget.php:38
+#: includes/libs/better-framework/widget/widgets/class-bf-about-widget.php:40
+#@ better-studio
+msgid "Upload Logo"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1722
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-about-shortcode.php:136
+#: includes/libs/better-framework/widget/widgets/class-bf-about-widget.php:39
+#@ better-studio
+msgid "Remove Logo"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1726
+#@ better-studio
+msgid "Logo Image Retina (2x)"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1728
+#@ better-studio
+msgid "If you want to upload a Retina Image, It's Image Size should be exactly double in compare with your normal Logo. It requires WP Retina 2x plugin."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1731
+#@ better-studio
+msgid "Select or Upload Retina Logo"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1732
+#@ better-studio
+msgid "Select Retina Image"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1733
+#@ better-studio
+msgid "Upload Retina Logo"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1734
+#@ better-studio
+msgid "Remove Retina Logo"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1738
+#@ better-studio
+msgid "Show Site Tagline Below Logo"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1742
+#@ better-studio
+msgid "Enabling this will add site Tagline below the logo."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1746
+#@ better-studio
+msgid "Show \"Aside Logo\" sidebar location on small screens?"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1750
+#@ better-studio
+msgid "Enabling this will shows Aside Logo sidebar location on tablets and smartphones."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1754
+#@ better-studio
+msgid "Top Bar"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1759
+#@ better-studio
+msgid "Disable Top Bar"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1763
+#@ better-studio
+msgid "Enabling this will disable the top bar element that appears above the logo area."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1767
+#: includes/class-better-mag-bf-setup.php:5106
+#: includes/class-better-mag.php:410
+#@ better-studio
+msgid "Main Navigation"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1771
+#@ better-studio
+msgid "Main Navigation Layout Style"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1773
+#@ better-studio
+msgid "Select whether you want a boxed or a full width menu. "
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1789
+#@ better-studio
+msgid "Sticky Navigation"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1793
+#@ better-studio
+msgid "This makes menu always visible at the top when the user scrolls."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1796
+#@ better-studio
+msgid "Show Search Icon in Main Navigation"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1800
+#@ better-studio
+msgid "Enabling this will add search icon to the main navigation."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1803
+#@ better-studio
+msgid "Show Random Post Link Icon in Main Navigation"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1807
+#@ better-studio
+msgid "Enabling this will adds random post icon link to the main navigation."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1810
+#@ better-studio
+msgid "Show User Login Button in Main Navigation"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1814
+#@ better-studio
+msgid "Enabling this will add a button in main navigation for user login and also register if it's enabled below."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1817
+#@ better-studio
+msgid "Show User Register Form in Login Popup Modal?"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1821
+#@ better-studio
+msgid "Enabling this will add register form in popup login modal."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1825
+#: includes/class-better-mag-bf-setup.php:6485
+#@ better-studio
+msgid "Breadcrumb"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1829
+#@ better-studio
+msgid "Show Breadcrumb?"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1831
+#@ better-studio
+msgid "Breadcrumbs are a hierarchy of links displayed below the main navigation. They are displayed on all pages but the home-page."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1836
+#@ better-studio
+msgid "Show Breadcrumb on Homepage?"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1838
+#@ better-studio
+msgid "You can show breadcrumb in homepage with enabling this option."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1845
+#: includes/class-better-mag-bf-setup.php:6672
+#@ better-studio
+msgid "Slider"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1851
+#@ better-studio
+msgid "Show Slider in Home Page?"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1861
+#@ better-studio
+msgid "With enabling this option only featured posts will be shown in the slider, and with disabling this option recent posts will be shown. "
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1865
+#@ better-studio
+msgid "Slider Style"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1869
+#@ better-studio
+msgid "Select general slider style for home page and all categories. This can be overridden for every category and pages ."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1919
+#@ better-studio
+msgid "Select a specified category to filter the posts in the slider. you can use a combination of categories and tags. Leave it empty for showing all posts without any category filter."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1929
+#@ better-studio
+msgid "Select a specified tag to filter the posts in the slider. you can use a combination of categories and tags. Leave it empty for showing all posts without any tag filter."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1940
+#: includes/class-better-mag-bf-setup.php:7317
+#@ better-studio
+msgid "Footer"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1946
+#@ better-studio
+msgid "Active Large Footer?"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1948
+#@ better-studio
+msgid "Enabling this will adds the large footer to appears above the lowest footer. Used to contain large widgets."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1953
+#@ better-studio
+msgid "Large Footer Columns"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1958
+#@ better-studio
+msgid "Select weather you will show larger footer in 2,3 or 4 columns."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1962
+#: includes/shortcodes/content-listing/class-bm-content-listing-2-shortcode.php:110
+#: includes/shortcodes/content-listing/class-bm-content-listing-2-shortcode.php:240
+#: includes/shortcodes/user-listing/class-bm-user-listing-2-shortcode.php:257
+#@ better-studio
+msgid "4 Column"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1966
+#: includes/shortcodes/content-listing/class-bm-content-listing-2-shortcode.php:103
+#: includes/shortcodes/content-listing/class-bm-content-listing-2-shortcode.php:239
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-11-shortcode.php:224
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-12-shortcode.php:211
+#: includes/shortcodes/user-listing/class-bm-user-listing-2-shortcode.php:256
+#@ better-studio
+msgid "3 Column"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1970
+#: includes/shortcodes/content-listing/class-bm-content-listing-2-shortcode.php:98
+#: includes/shortcodes/content-listing/class-bm-content-listing-2-shortcode.php:238
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-11-shortcode.php:223
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-12-shortcode.php:210
+#: includes/shortcodes/user-listing/class-bm-user-listing-1-shortcode.php:250
+#: includes/shortcodes/user-listing/class-bm-user-listing-2-shortcode.php:255
+#@ better-studio
+msgid "2 Column"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1975
+#@ better-studio
+msgid "Active Lower Footer?"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1977
+#@ better-studio
+msgid "Enabling this will adds the smaller footer at bottom."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1995
+#@ better-studio
+msgid "Archives Content Listing Style"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2000
+#@ better-studio
+msgid "This style is used while browsing default blog format, searching, date archives etc."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2021
+#@ better-studio
+msgid "Categories Content Listing Style"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2026
+#@ better-studio
+msgid "This style is used while browsing categories archive pages. This can be overridden for each category."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2047
+#@ better-studio
+msgid "Tags Content Listing Style"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2052
+#@ better-studio
+msgid "This style is used while browsing tags archive pages. This can be overridden for each tag."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2073
+#@ better-studio
+msgid "Authors Content Listing Style"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2078
+#@ better-studio
+msgid "This style is used while browsing authors archive page."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2110
+#@ better-studio
+msgid "Blog Listing Excerpt Length"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2116
+#@ better-studio
+msgid "Show \"Read More...\" Link In Blog Listing?"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2122
+#@ better-studio
+msgid "Modern Listing Excerpt Length"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2128
+#@ better-studio
+msgid "Show related posts in single page?"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2130
+#@ better-studio
+msgid "Enabling this will be adds related posts in  bottom of posts single page."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2135
+#@ better-studio
+msgid "Show author information box in single page?"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2137
+#@ better-studio
+msgid "Enabling this will be adds author information box to  bottom of posts single page."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2142
+#@ better-studio
+msgid "Show post categories in single page?"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2148
+#@ better-studio
+msgid "Show post tags in single page?"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2155
+#@ better-studio
+msgid "Use WP-PageNavi Plugin For Pagination?"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2162
+#@ better-studio
+msgid "Meta Info Settings"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2166
+#@ better-studio
+msgid "Show Post Author Inside Posts Meta Info?"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2170
+#@ better-studio
+msgid "You can hide post author inside post meta info for all content listings with disabling this option."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2173
+#@ better-studio
+msgid "Show Post Comment Count Inside Posts Meta Info?"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2177
+#@ better-studio
+msgid "You can hide post comments count inside post meta info for all content listings with disabling this option."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2181
+#@ better-studio
+msgid "Post Date Format Inside Meta Info"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2217
+#@ better-studio
+msgid "Share Box"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2221
+#@ better-studio
+msgid "Show Share Box In Posts Page?"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2222
+#@ better-studio
+msgid "Enabling this will adds share links in posts single page. You can change design and social sites will following options."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2240
+#@ better-studio
+msgid "Drag and Drop To Sort The Items"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2242
+#@ better-studio
+msgid "Enabling sites will adds share link for them in single pages. You can reorder sites too."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2255
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-social-share-shortcode.php:64
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-social-share-shortcode.php:252
+#: includes/libs/better-framework/widget/widgets/class-bf-social-share-widget.php:63
+#@ better-studio
+msgid "Facebook"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2259
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-social-share-shortcode.php:70
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-social-share-shortcode.php:256
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-twitter-shortcode.php:14
+#: includes/libs/better-framework/widget/widgets/class-bf-social-share-widget.php:67
+#@ better-studio
+msgid "Twitter"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2263
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-social-share-shortcode.php:76
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-social-share-shortcode.php:260
+#: includes/libs/better-framework/widget/widgets/class-bf-social-share-widget.php:71
+#@ better-studio
+msgid "Google+"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2267
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-social-share-shortcode.php:83
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-social-share-shortcode.php:264
+#: includes/libs/better-framework/widget/widgets/class-bf-social-share-widget.php:75
+#@ better-studio
+msgid "Pinterest"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2271
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-social-share-shortcode.php:89
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-social-share-shortcode.php:268
+#: includes/libs/better-framework/widget/widgets/class-bf-social-share-widget.php:79
+#@ better-studio
+msgid "Linkedin"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2275
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-social-share-shortcode.php:95
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-social-share-shortcode.php:272
+#: includes/libs/better-framework/widget/widgets/class-bf-social-share-widget.php:83
+#@ better-studio
+msgid "Tumblr"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2279
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-social-share-shortcode.php:101
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-social-share-shortcode.php:276
+#: includes/libs/better-framework/widget/widgets/class-bf-social-share-widget.php:87
+#: includes/shortcodes/user-listing/class-bm-user-listing-1-shortcode.php:208
+#: includes/shortcodes/user-listing/class-bm-user-listing-2-shortcode.php:214
+#@ better-studio
+msgid "Email"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2287
+#@ better-studio
+msgid "Share Box Style"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2289
+#@ better-studio
+msgid "Select style of sharing buttons."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2295
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-social-share-shortcode.php:218
+#: includes/libs/better-framework/widget/widgets/class-bf-social-share-widget.php:33
+#@ better-studio
+msgid "Button Style"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2299
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-social-share-shortcode.php:222
+#: includes/libs/better-framework/widget/widgets/class-bf-social-share-widget.php:37
+#@ better-studio
+msgid "Icon Button Style"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2303
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-social-share-shortcode.php:226
+#: includes/libs/better-framework/widget/widgets/class-bf-social-share-widget.php:41
+#@ better-studio
+msgid "Outline Style"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2307
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-social-share-shortcode.php:230
+#: includes/libs/better-framework/widget/widgets/class-bf-social-share-widget.php:45
+#@ better-studio
+msgid "Icon Outline Style"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2314
+#@ better-studio
+msgid "Show Colored Style?"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2316
+#@ better-studio
+msgid "Enabling this will be show social share buttons in color mode and disabling this will be show in gray mode."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2326
+#@ better-studio
+msgid "Typography"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2348
+#@ better-studio
+msgid "General Typography"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2353
+#@ better-studio
+msgid "Base Font (Body)"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2411
+#@ better-studio
+msgid "Base typography for body that will affect all elements that haven't specified typography style. "
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2424
+#@ better-studio
+msgid "Base Heading Typography"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2477
+#@ better-studio
+msgid "Base heading typography that will be set to all headings (h1,h2 etc) and all titles of sections and pages that must be bolder than other texts."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2554
+#@ better-studio
+msgid "Pages/Posts Title Typography"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2627
+#@ better-studio
+msgid "Sections/Listings Title Typography"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2663
+#@ better-studio
+msgid "Base Meta Typography"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2712
+#@ better-studio
+msgid "Base style for all posts, pages and listings meta data (date, author etc) sections. This can be overridden for each listings."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2733
+#@ better-studio
+msgid "Base Excerpt Typography"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2796
+#@ better-studio
+msgid "General excerpts typography. This can overridden for each listing."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:3221
+#@ better-studio
+msgid "Blog Listing Typography"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:3226
+#@ better-studio
+msgid "Blog Listing Heading Typography"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:3289
+#@ better-studio
+msgid "You can override heading typography of blog listing elements with enabling this option."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:3305
+#@ better-studio
+msgid "Blog Listing Meta Typography"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:3369
+#@ better-studio
+msgid "You can override meta typography of blog listing elements with enabling this option."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:3390
+#@ better-studio
+msgid "Blog Listing Excerpt Typography"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:3458
+#@ better-studio
+msgid "You can override excerpt typography of blog listing elements with enabling this option."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:3477
+#@ better-studio
+msgid "Modern Listing Typography"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:3481
+#@ better-studio
+msgid "Modern Listing Heading typography"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:3544
+#@ better-studio
+msgid "You can override heading typography of modern listing elements with enabling this option."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:3562
+#@ better-studio
+msgid "Modern Listing Meta Typography"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:3625
+#@ better-studio
+msgid "You can override meta typography of modern listing elements with enabling this option."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:3646
+#@ better-studio
+msgid "Modern Listing Excerpt Typography"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:3714
+#@ better-studio
+msgid "You can override excerpt typography of modern listing elements with enabling this option."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:3734
+#@ better-studio
+msgid "Highlight Listing Typography"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:3738
+#@ better-studio
+msgid "Highlight Listing Heading Typography"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:3801
+#@ better-studio
+msgid "You can override heading typography of highlight listing elements with enabling this option."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:3818
+#@ better-studio
+msgid "Highlight Listing Meta Typography"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:3881
+#@ better-studio
+msgid "You can override meta typography of highlight listing elements with enabling this option."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:3906
+#@ better-studio
+msgid "Thumbnail Listing Typography"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:3911
+#@ better-studio
+msgid "Thumbnail Listing Heading Typography"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:3974
+#@ better-studio
+msgid "You can override heading typography of thumbnail listing elements with enabling this option."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:3992
+#@ better-studio
+msgid "Thumbnail Listing Meta Typography"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:4055
+#@ better-studio
+msgid "You can override meta typography of thumbnail listing elements with enabling this option."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:4077
+#@ better-studio
+msgid "Simple Listing Typography"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:4081
+#@ better-studio
+msgid "Simple Listing Heading Typography"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:4144
+#@ better-studio
+msgid "You can override heading typography of simple listing elements with enabling this option."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2958
+#@ better-studio
+msgid "Header Typography"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:3065
+#@ better-studio
+msgid "Logo Text Typography"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:3123
+#@ better-studio
+msgid "You can change logo text typography with enabling this option."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:3139
+#@ better-studio
+msgid "Blog Description Typography"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:3202
+#@ better-studio
+msgid "You can change typography of site description (below logo) typography with enabling this option."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2964
+#@ better-studio
+msgid "Menu Typography"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:3017
+#@ better-studio
+msgid "Menu Badges Typography"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2817
+#@ better-studio
+msgid "Pages/Posts Content Typography"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2822
+#@ better-studio
+msgid "Posts/Pages Text Typography"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2900
+#@ better-studio
+msgid "Blockquote Typography"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:4166
+#@ better-studio
+msgid "Style & Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:4172
+#@ better-studio
+msgid "Pre-defined Styles"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:4180
+#@ better-studio
+msgid "Silver Skin (Default)"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:4184
+#@ better-studio
+msgid "Half Dark Skin"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:4188
+#@ better-studio
+msgid "Full Dark Skin"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:4192
+#@ better-studio
+msgid "Half Black Skin"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:4196
+#@ better-studio
+msgid "Full Black Skin"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:4200
+#@ better-studio
+msgid "Beige Skin"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:4204
+#@ better-studio
+msgid "CleanMag - Silver Skin"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:4208
+#@ better-studio
+msgid "CleanMag - Beige Skin"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:4211
+#@ better-studio
+msgid "Select a predefined style or create your own customized one below. <br><br> <strong>WARNING :</strong> With changing style some color and other options will be changes."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:4218
+#@ better-studio
+msgid "General Colors"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:4222
+#@ better-studio
+msgid "Theme Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:4236
+#@ better-studio
+msgid "It is the contrast color for the theme. It will be used for all links, menu, category overlays, main page and many contrasting elements."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:4851
+#@ better-studio
+msgid "Main Column Background Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:4862
+#@ better-studio
+msgid "This will be used as main column background in \"boxed\" and \"Boxed (Padded)\" layout style."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:4915
+#@ better-studio
+msgid "Links color in the main content"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:4918
+#: includes/class-better-mag-bf-setup.php:4948
+#@ better-studio
+msgid "Changes all the links color within posts and pages."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:4945
+#@ better-studio
+msgid "Images overlay gradient color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:4994
+#@ better-studio
+msgid "Top Bar Background Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:5022
+#@ better-studio
+msgid "Top Bar Bottom Line Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:5090
+#: includes/class-better-mag-bf-setup.php:6708
+#@ better-studio
+msgid "Please use a background pattern that can be repeated. Note that it will override the background color option."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:5110
+#@ better-studio
+msgid "Menu Background Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:5166
+#@ better-studio
+msgid "Menu Separator Color in Responsive Navigation"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:5214
+#@ better-studio
+msgid "Menu Border Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:5216
+#@ better-studio
+msgid "Border color for top, right, left and also line between links."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:5369
+#@ better-studio
+msgid "Menu Border Below Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:5429
+#@ better-studio
+msgid "Menu Text Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:5486
+#@ better-studio
+msgid "Menu Current Page Background Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:5563
+#@ better-studio
+msgid "Menu Current Page Text Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:5624
+#@ better-studio
+msgid "Menu Hover Background Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:5689
+#@ better-studio
+msgid "Menu Hover Page Text Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:5745
+#@ better-studio
+msgid "Main Navigation - Drop Down Sub Menu"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:5750
+#@ better-studio
+msgid "Sub Menu Background Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:5789
+#@ better-studio
+msgid "Sub Menu Text Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:5820
+#@ better-studio
+msgid "Sub Menu Separator Line Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:5853
+#@ better-studio
+msgid "Sub Menu Border Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:5889
+#@ better-studio
+msgid "Sub Menu Current Page Background Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:5924
+#@ better-studio
+msgid "Sub Menu Current Page Text Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:5958
+#@ better-studio
+msgid "Sub Menu Hover Background Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:5997
+#@ better-studio
+msgid "Sub Menu Hover Text Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:6046
+#@ better-studio
+msgid "Main Navigation - Mega Menu"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:6050
+#@ better-studio
+msgid "Mega Menu Background Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:6081
+#@ better-studio
+msgid "Mega Menu Links Background Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:6112
+#@ better-studio
+msgid "Mega Menu Text Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:6148
+#@ better-studio
+msgid "Mega Menu Separator Line Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:6192
+#@ better-studio
+msgid "Mega Menu Border Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:6220
+#@ better-studio
+msgid "Mega Menu Links Current Page Background Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:6254
+#@ better-studio
+msgid "Mega Menu Links Current Page Text Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:6287
+#@ better-studio
+msgid "Mega Menu Links Hover Background Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:6319
+#@ better-studio
+msgid "Mega Menu Links Hover Text Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:6350
+#@ better-studio
+msgid "Mega Menu Section Title Text Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:6381
+#@ better-studio
+msgid "Mega Menu Section Title Background Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:6428
+#@ better-studio
+msgid "Mega Menu Section Title Border Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:6489
+#@ better-studio
+msgid "Breadcrumb Background Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:6521
+#@ better-studio
+msgid "Breadcrumb Font Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:6552
+#@ better-studio
+msgid "Breadcrumb Current Page Text Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:6584
+#@ better-studio
+msgid "Breadcrumb Border Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:6703
+#@ better-studio
+msgid "Slider Background Image"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:6720
+#@ better-studio
+msgid "Slider Border Style"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:6780
+#@ better-studio
+msgid "News Ticker"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:6784
+#@ better-studio
+msgid "News Ticker Background Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:6813
+#@ better-studio
+msgid "News Ticker Links Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:6841
+#@ better-studio
+msgid "News Ticker Border"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:6890
+#@ better-studio
+msgid "Page Title"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:6895
+#@ better-studio
+msgid "Page Title Border Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:6955
+#@ better-studio
+msgid "Section/Listing Title"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:6960
+#@ better-studio
+msgid "Section/Listing Title Font Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:6993
+#@ better-studio
+msgid "Section/Listing Text Title Background Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:7041
+#@ better-studio
+msgid "Section/Listing Title Background Gradient Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:7111
+#@ better-studio
+msgid "Section/Listing Title Border Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:7162
+#@ better-studio
+msgid "Sidebar Widget Title"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:7166
+#: includes/libs/better-framework/widget/class-bf-widgets-general-fields.php:67
+#@ better-studio
+msgid "Widget Title Background Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:7222
+#@ better-studio
+msgid "Widget Title Text Background Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:7250
+#@ better-studio
+msgid "Widget Title Text Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:7280
+#@ better-studio
+msgid "Widget Title Text Border Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:7321
+#@ better-studio
+msgid "Large Footer Background Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:7411
+#@ better-studio
+msgid "Large Footer Text Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:7448
+#: includes/class-better-mag-bf-setup.php:7554
+#@ better-studio
+msgid "Large Footer Border Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:7492
+#@ better-studio
+msgid "Lower Footer Background Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:7521
+#@ better-studio
+msgid "Lower Footer Text Color"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-flickr-shortcode.php:213
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-likebox-shortcode.php:120
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-twitter-shortcode.php:291
+#: includes/libs/better-framework/widget/widgets/class-bf-flickr-widget.php:16
+#: includes/libs/better-framework/widget/widgets/class-bf-likebox-widget.php:16
+#: includes/libs/better-framework/widget/widgets/class-bf-twitter-widget.php:47
+#@ better-studio
+msgid "Instructions"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-likebox-shortcode.php:123
+#: includes/libs/better-framework/widget/widgets/class-bf-likebox-widget.php:19
+#@ better-studio
+msgid ""
+"<ol>\n"
+"    <li>Copy the link to you facebook page</li>\n"
+"    <li>Paste it in the \"Link to you Facebook page\" input box below</li>\n"
+"  </ol>\n"
+"                "
+msgstr ""
+
+#: includes/class-bm-blocks.php:1672
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-twitter-shortcode.php:312
+#@ better-studio
+msgid "Username"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-twitter-shortcode.php:326
+#@ better-studio
+msgid "Consumer Secret"
+msgstr ""
+
+#: includes/libs/class-tgm-plugin-activation.php:1361
+#@ better-studio
+msgid "Type"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-flickr-shortcode.php:14
+#@ better-studio
+msgid "Flickr"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:7605
+#@ better-studio
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:7612
+#@ better-studio
+msgid "Shop Sidebar Layout"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:7617
+#@ better-studio
+msgid "Select the sidebar layout to use by default. This can be overridden per-page or per-post basis when creating a page or post."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:7635
+#@ better-studio
+msgid "Number Of Posts In Shop Archive Page"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:7637
+#@ better-studio
+msgid "Number of posts in shop archive pages and product categories page."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:7643
+#@ better-studio
+msgid "Show Shopping Cart in Main Navigation"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:7647
+#@ better-studio
+msgid "When enabled, a cart icon is shown in the main navigation to the right side."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:7658
+#@ better-studio
+msgid "Custom JS/CSS/Code"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:7665
+#@ better-studio
+msgid "Header HTML Code"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:7669
+#@ better-studio
+msgid "This code will be placed before &lt;/head&gt; tag in html. Useful if you have an external script that requires it."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:7672
+#@ better-studio
+msgid "Footer HTML Code"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:7676
+#@ better-studio
+msgid "This code will be placed before &lt;/body&gt; tag in html. Use for Google Analytics or similar external scripts."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:7679
+#@ better-studio
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:7683
+#@ better-studio
+msgid "Custom CSS will be added at end of all other customizations and thus can be used to overwrite rules. Less chances of specificity wars."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:7691
+#@ better-studio
+msgid "Backup & Restore"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:7698
+#@ better-studio
+msgid "Backup / Export"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:7703
+#@ better-studio
+msgid "This allows you to create a backup of your options and settings. Please note, it will not backup anything else."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:7706
+#@ better-studio
+msgid "Restore / Import"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:7709
+#@ better-studio
+msgid "<strong>It will override your current settings!</strong> Please make sure to select a valid backup file."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:7719
+#: includes/class-better-mag-bf-setup.php:7721
+#: includes/class-better-mag-bf-setup.php:7722
+#: includes/class-better-mag-bf-setup.php:7724
+#@ better-studio
+msgid "Theme Options"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:7952
+#@ better-studio
+msgid "Mega Menu"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:7959
+#@ better-studio
+msgid "Mega Menu Type"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:7969
+#@ better-studio
+msgid "Disabled"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:7973
+#@ better-studio
+msgid "Links - 2 Column"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:7977
+#@ better-studio
+msgid "Links - 3 Column"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:7981
+#@ better-studio
+msgid "Links - 4 Column"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:7985
+#@ better-studio
+msgid "Category Recent (Menu Left)"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:7989
+#@ better-studio
+msgid "Category Recent (Menu Right)"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:7993
+#@ better-studio
+msgid "Category Recent (Menu Left, Featured & Recent)"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:7997
+#@ better-studio
+msgid "Category Recent (Menu Right, Featured & Recent)"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:8001
+#: includes/class-better-mag-bf-setup.php:8005
+#@ better-studio
+msgid "Category Recent (Menu Right, Featured & Simple Recent)"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:8015
+#@ better-studio
+msgid "Menu Icon"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:8022
+#@ better-studio
+msgid "Icon"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:8036
+#@ better-studio
+msgid "Show Just Icon?"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:8046
+#@ better-studio
+msgid "Menu Badge"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:8053
+#@ better-studio
+msgid "Badge Label"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:8063
+#@ better-studio
+msgid "Badge Position"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:8077
+#@ better-studio
+msgid "Badge Background Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:8117
+#@ better-studio
+msgid "Badge Font Color"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:8150
+#: includes/libs/better-framework/libs/class-bf-breadcrumb.php:142
+#@ better-studio
+msgid "Home"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:8151
+#@ better-studio
+msgid "You are at:"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:8173
+#@ better-studio
+msgid "Twitter URL"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:8174
+#@ better-studio
+msgid "Facebook URL"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:8175
+#@ better-studio
+msgid "Google+ URL"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:8176
+#@ better-studio
+msgid "Linkedin URL"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:8177
+#@ better-studio
+msgid "Github URL"
+msgstr ""
+
+#: includes/class-better-mag.php:481
+#@ better-studio
+msgid "Navigation"
+msgstr ""
+
+#: includes/class-better-mag.php:525
+#@ better-studio
+msgid "Main Sidebar"
+msgstr ""
+
+#: includes/class-better-mag.php:527
+#@ better-studio
+msgid "Widgets in this area will be shown in the default sidebar."
+msgstr ""
+
+#: includes/class-better-mag.php:535
+#@ better-studio
+msgid "Aside Logo"
+msgstr ""
+
+#: includes/class-better-mag.php:537
+#@ better-studio
+msgid " Widgets in this area will shown in logo aside. Please place only one line widgets."
+msgstr ""
+
+#: includes/class-better-mag.php:545
+#@ better-studio
+msgid "Top Bar - Left Column"
+msgstr ""
+
+#: includes/class-better-mag.php:547
+#: includes/class-better-mag.php:557
+#: includes/class-better-mag.php:621
+#: includes/class-better-mag.php:631
+#@ better-studio
+msgid "Please place only one line widgets."
+msgstr ""
+
+#: includes/class-better-mag.php:555
+#@ better-studio
+msgid "Top Bar - Right Column"
+msgstr ""
+
+#: includes/class-better-mag.php:568
+#@ better-studio
+msgid "Larger Footer - Column 1"
+msgstr ""
+
+#: includes/class-better-mag.php:570
+#@ better-studio
+msgid "Widgets in this area will be shown in the footer larger column 1."
+msgstr ""
+
+#: includes/class-better-mag.php:578
+#@ better-studio
+msgid "Larger Footer - Column 2"
+msgstr ""
+
+#: includes/class-better-mag.php:580
+#@ better-studio
+msgid "Widgets in this area will be shown in the footer larger column 2."
+msgstr ""
+
+#: includes/class-better-mag.php:590
+#@ better-studio
+msgid "Larger Footer - Column 3"
+msgstr ""
+
+#: includes/class-better-mag.php:592
+#@ better-studio
+msgid "Widgets in this area will be shown in the footer larger column 3."
+msgstr ""
+
+#: includes/class-better-mag.php:603
+#@ better-studio
+msgid "Larger Footer - Column 4"
+msgstr ""
+
+#: includes/class-better-mag.php:605
+#@ better-studio
+msgid "Widgets in this area will be shown in the footer larger column 4."
+msgstr ""
+
+#: includes/class-better-mag.php:619
+#@ better-studio
+msgid "Lower Footer - Left Column"
+msgstr ""
+
+#: includes/class-better-mag.php:629
+#@ better-studio
+msgid "Lower Footer - Right Column"
+msgstr ""
+
+#: includes/class-bm-block-generator.php:231
+#: includes/shortcodes/class-bm-posts-listing-shortcode.php:129
+#: includes/shortcodes/class-bm-posts-listing-shortcode.php:132
+#: includes/shortcodes/class-bm-recent-tab-shortcode.php:260
+#: includes/shortcodes/class-bm-recent-tab-shortcode.php:263
+#: includes/shortcodes/content-listing/class-bm-content-tab-listing-shortcode.php:169
+#: includes/shortcodes/content-listing/class-bm-content-tab-listing-shortcode.php:187
+#@ better-studio
+msgid "Read More"
+msgstr ""
+
+#: includes/class-bm-blocks.php:824
+#@ better-studio
+msgid "Related Posts"
+msgstr ""
+
+#: includes/class-bm-blocks.php:879
+#@ better-studio
+msgid "Search..."
+msgstr ""
+
+#: includes/class-bm-blocks.php:879
+#@ better-studio
+msgid "Search for:"
+msgstr ""
+
+#: includes/class-bm-blocks.php:908
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-social-share-shortcode.php:22
+#@ better-studio
+msgid "Share"
+msgstr ""
+
+#: includes/class-bm-blocks.php:940
+#@ better-studio
+msgid "Y-m-d\\TH:i:sP"
+msgstr ""
+
+#: includes/class-bm-blocks.php:946
+#@ better-studio
+msgid "<i class=\"fa fa-comment-o\"></i> 0"
+msgstr ""
+
+#: includes/class-bm-blocks.php:946
+#@ better-studio
+msgid "<i class=\"fa fa-comment\"></i> 1"
+msgstr ""
+
+#: includes/class-bm-blocks.php:946
+#@ better-studio
+msgid "<i class=\"fa fa-comments-o\"></i> %"
+msgstr ""
+
+#: includes/class-bm-blocks.php:1020
+#: includes/class-bm-blocks.php:1126
+#: includes/class-bm-blocks.php:1364
+#: includes/class-bm-blocks.php:1456
+#@ better-studio
+msgid "Featured"
+msgstr ""
+
+#: includes/class-bm-blocks.php:1054
+#: includes/class-bm-blocks.php:1159
+#: includes/class-bm-blocks.php:1396
+#: includes/class-bm-blocks.php:1489
+#: includes/shortcodes/class-bm-recent-tab-shortcode.php:15
+#@ better-studio
+msgid "Recent"
+msgstr ""
+
+#: includes/class-bm-blocks.php:1575
+#@ better-studio
+msgid "Select a menu for \"Main Navigation\""
+msgstr ""
+
+#: includes/class-bm-blocks.php:1586
+#@ better-studio
+msgid "Random Post"
+msgstr ""
+
+#: includes/class-bm-blocks.php:1602
+#: includes/class-bm-blocks.php:1604
+#: includes/class-bm-blocks.php:1610
+#: includes/class-bm-blocks.php:1612
+#@ better-studio
+msgid "Profile"
+msgstr ""
+
+#: includes/class-bm-blocks.php:1605
+#: includes/class-bm-blocks.php:1613
+#@ better-studio
+msgid "Logout"
+msgstr ""
+
+#: includes/class-bm-blocks.php:1620
+#: includes/class-bm-blocks.php:1659
+#: includes/class-bm-blocks.php:1689
+#@ better-studio
+msgid "Login"
+msgstr ""
+
+#: includes/class-bm-blocks.php:1660
+#: includes/class-bm-blocks.php:1675
+#: includes/class-bm-blocks.php:1689
+#@ better-studio
+msgid "Register"
+msgstr ""
+
+#: includes/class-bm-blocks.php:1662
+#: includes/class-bm-blocks.php:1688
+#@ better-studio
+msgid "Close"
+msgstr ""
+
+#: includes/class-bm-blocks.php:1668
+#@ better-studio
+msgid "Register your Account"
+msgstr ""
+
+#: includes/class-bm-blocks.php:1669
+#@ better-studio
+msgid "Sign Up with us and Enjoy!"
+msgstr ""
+
+#: includes/class-bm-blocks.php:1673
+#@ better-studio
+msgid "E-Mail"
+msgstr ""
+
+#: includes/class-bm-blocks.php:1677
+#@ better-studio
+msgid "A password will be e-mailed to you."
+msgstr ""
+
+#: includes/class-bm-blocks.php:2860
+#: includes/class-bm-blocks.php:3101
+#@ better-studio
+msgid "Pingback:"
+msgstr ""
+
+#: includes/class-bm-blocks.php:2860
+#: includes/class-bm-blocks.php:2893
+#: includes/class-bm-blocks.php:3101
+#: includes/class-bm-blocks.php:3134
+#@ better-studio
+msgid "Edit"
+msgstr ""
+
+#: includes/class-bm-blocks.php:2874
+#: includes/class-bm-blocks.php:3115
+#@ better-studio
+msgid " at "
+msgstr ""
+
+#: includes/class-bm-blocks.php:2882
+#: includes/class-bm-blocks.php:3123
+#@ better-studio
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: includes/class-bm-blocks.php:2888
+#: includes/class-bm-blocks.php:3129
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-twitter-shortcode.php:137
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-twitter-shortcode.php:153
+#@ better-studio
+msgid "Reply"
+msgstr ""
+
+#: includes/class-bm-blocks.php:2951
+#@ better-studio
+msgid "Next"
+msgstr ""
+
+#: includes/class-bm-blocks.php:2952
+#@ better-studio
+msgid "Previous"
+msgstr ""
+
+#: includes/class-bm-woocommerce.php:187
+#@ better-studio
+msgid "Cart"
+msgstr ""
+
+#: includes/libs/better-framework/admin-panel/templates/default/main.php:35
+#@ better-studio
+msgid "Reset Setting"
+msgstr ""
+
+#: includes/libs/better-framework/admin-panel/templates/default/main.php:12
+#: includes/libs/better-framework/admin-panel/templates/default/main.php:39
+#@ better-studio
+msgid "Save Settings"
+msgstr ""
+
+#: includes/libs/better-framework/admin-panel/class-better-admin-panel.php:498
+#@ better-studio
+msgid "OK!"
+msgstr ""
+
+#: includes/libs/better-framework/admin-panel/class-better-admin-panel.php:507
+#@ better-studio
+msgid "ERROR!"
+msgstr ""
+
+#: includes/libs/better-framework/admin-panel/class-better-admin-panel.php:614
+#@ better-studio
+msgid "Options Reset."
+msgstr ""
+
+#: includes/libs/better-framework/admin-panel/class-better-admin-panel.php:625
+#: includes/libs/better-framework/admin-panel/class-better-admin-panel.php:629
+#@ better-studio
+msgid "An error occurred while resetting options."
+msgstr ""
+
+#: includes/libs/better-framework/admin-panel/class-better-admin-panel.php:651
+#: includes/libs/better-framework/admin-panel/class-better-admin-panel.php:655
+#@ better-studio
+msgid "Imported data is not correct or was corrupted."
+msgstr ""
+
+#: includes/libs/better-framework/admin-panel/class-better-admin-panel.php:669
+#: includes/libs/better-framework/admin-panel/class-better-admin-panel.php:670
+#@ better-studio
+msgid "Theme Options successfully imported."
+msgstr ""
+
+#: includes/libs/better-framework/admin-panel/templates/default/main.php:48
+#@ better-studio
+msgid "An Error Occurred!"
+msgstr ""
+
+#: includes/libs/better-framework/admin-panel/templates/typography.php:69
+#@ better-studio
+msgid "This Is a Test Title Text!"
+msgstr ""
+
+#: includes/libs/better-framework/admin-panel/templates/typography.php:76
+#@ better-studio
+msgid "Grumpy wizards make toxic brew for the evil Queen and Jack. One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. "
+msgstr ""
+
+#: includes/libs/better-framework/admin-panel/templates/typography.php:84
+#@ better-studio
+msgid ""
+"a b c d e f g h i j k l m n o p q r s t u v w x y z<br>\n"
+"                                A B C D E F G H I J K L M N O P Q R S T U V W X Y Z<br>\n"
+"                                0123456789 (!@#$%&.,?:;)"
+msgstr ""
+
+#: includes/libs/better-framework/class-better-framework.php:637
+#@ better-studio
+msgid "Show Advanced Fields?"
+msgstr ""
+
+#: includes/libs/better-framework/class-better-framework.php:638
+#@ better-studio
+msgid "Hide Advanced Fields?"
+msgstr ""
+
+#: includes/libs/better-framework/class-better-framework.php:639
+#@ better-studio
+msgid "Do you really wish to override your current settings?"
+msgstr ""
+
+#: includes/libs/better-framework/class-better-framework.php:739
+#: includes/libs/better-framework/class-better-framework.php:752
+#@ better-studio
+msgid "Security Error!"
+msgstr ""
+
+#: includes/libs/better-framework/admin-panel/class-better-admin-panel.php:512
+#@ better-studio
+msgid "Pre-defined Skin and Styles updated."
+msgstr ""
+
+#: includes/libs/better-framework/admin-panel/class-better-admin-panel.php:618
+#@ better-studio
+msgid "Options reset to defaults."
+msgstr ""
+
+#: includes/class-bm-posts.php:107
+#: includes/libs/better-framework/core/class-bf-posts.php:102
+#@ better-studio
+msgid "Pages:"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/class-bf-google-fonts-helper.php:4984
+#@ better-studio
+msgid "Google Fonts"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/background_image.php:12
+#: includes/libs/better-framework/core/field-generator/fields/background_image.php:13
+#: includes/libs/better-framework/core/field-generator/fields/background_image.php:25
+#: includes/libs/better-framework/core/field-generator/fields/image_upload.php:15
+#: includes/libs/better-framework/core/field-generator/fields/media.php:8
+#: includes/libs/better-framework/core/field-generator/fields/media.php:9
+#: includes/libs/better-framework/core/field-generator/fields/media.php:12
+#: includes/libs/better-framework/core/field-generator/fields/media_image.php:10
+#: includes/libs/better-framework/core/field-generator/fields/media_image.php:11
+#: includes/libs/better-framework/core/field-generator/fields/media_image.php:13
+#: includes/libs/better-framework/vc-extend/fields/background_image.php:12
+#: includes/libs/better-framework/vc-extend/fields/background_image.php:13
+#: includes/libs/better-framework/vc-extend/fields/background_image.php:25
+#@ better-studio
+msgid "Upload"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/background_image.php:35
+#: includes/libs/better-framework/core/field-generator/fields/media_image.php:14
+#: includes/libs/better-framework/vc-extend/fields/background_image.php:35
+#@ better-studio
+msgid "Remove"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/background_image.php:49
+#: includes/libs/better-framework/vc-extend/fields/background_image.php:49
+#@ better-studio
+msgid "Repeat Horizontal and Vertical - Pattern"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/background_image.php:50
+#: includes/libs/better-framework/vc-extend/fields/background_image.php:50
+#@ better-studio
+msgid "Fully Cover Background - Photo"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/background_image.php:51
+#: includes/libs/better-framework/vc-extend/fields/background_image.php:51
+#@ better-studio
+msgid "Repeat Horizontal"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/background_image.php:52
+#: includes/libs/better-framework/vc-extend/fields/background_image.php:52
+#@ better-studio
+msgid "Repeat Vertical"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/background_image.php:53
+#: includes/libs/better-framework/vc-extend/fields/background_image.php:53
+#@ better-studio
+msgid "No Repeat"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/border.php:24
+#@ better-studio
+msgid "Top Border:"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/border.php:35
+#@ better-studio
+msgid "Right Border:"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/border.php:46
+#@ better-studio
+msgid "Bottom Border:"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/border.php:57
+#@ better-studio
+msgid "Left Border:"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/export.php:19
+#@ better-studio
+msgid "Download Backup"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/icon_select.php:14
+#: includes/libs/better-framework/core/field-generator/fields/icon_select.php:24
+#@ better-studio
+msgid "Chose an Icon"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/icon_select.php:25
+#@ better-studio
+msgid "No Icon"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/icon_select.php:42
+#@ better-studio
+msgid "All: "
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/icon_select.php:42
+#@ better-studio
+msgid "(439)"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/icon_select.php:56
+#@ better-studio
+msgid "Search: "
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/image_select.php:11
+#@ better-studio
+msgid "chose one..."
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/partial-border.php:10
+#@ better-studio
+msgid "Width:"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/partial-border.php:21
+#@ better-studio
+msgid "Dotted"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/partial-border.php:22
+#@ better-studio
+msgid "Dashed"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/partial-border.php:23
+#@ better-studio
+msgid "Solid"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/partial-border.php:24
+#@ better-studio
+msgid "Double"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/partial-border.php:25
+#@ better-studio
+msgid "Groove"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/partial-border.php:26
+#@ better-studio
+msgid "Ridge"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/partial-border.php:27
+#@ better-studio
+msgid "Inset"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/partial-border.php:28
+#@ better-studio
+msgid "Outset"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/repeater.php:32
+#@ better-studio
+msgid "Add"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/repeater.php:38
+#@ better-studio
+msgid "Delete"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/repeater.php:44
+#@ better-studio
+msgid "Item"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/typography.php:79
+#@ better-studio
+msgid "Text Align:"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/typography.php:113
+#@ better-studio
+msgid "Text Transform:"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/typography.php:149
+#@ better-studio
+msgid "Size:"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/typography.php:170
+#@ better-studio
+msgid "Height:"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/templates/typography.php:55
+#@ better-studio
+msgid "ABCDEF...123"
+msgstr ""
+
+#: includes/libs/better-framework/libs/class-bf-breadcrumb.php:141
+#@ better-studio
+msgid "Browse:"
+msgstr ""
+
+#: includes/libs/better-framework/libs/class-bf-breadcrumb.php:143
+#@ better-studio
+msgid "404 Not Found"
+msgstr ""
+
+#: includes/libs/better-framework/libs/class-bf-breadcrumb.php:144
+#: vc_templates/vc_wp_archives.php:4
+#@ better-studio
+msgid "Archives"
+msgstr ""
+
+#. Translators: %s is the search query. The HTML entities are opening and closing curly quotes.
+#: includes/libs/better-framework/libs/class-bf-breadcrumb.php:146
+#, php-format
+#@ better-studio
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#. Translators: %s is the page number.
+#: includes/libs/better-framework/libs/class-bf-breadcrumb.php:148
+#, php-format
+#@ better-studio
+msgid "Page %s"
+msgstr ""
+
+#. Translators: Minute archive title. %s is the minute time format.
+#: includes/libs/better-framework/libs/class-bf-breadcrumb.php:150
+#, php-format
+#@ better-studio
+msgid "Minute %s"
+msgstr ""
+
+#. Translators: Weekly archive title. %s is the week date format.
+#: includes/libs/better-framework/libs/class-bf-breadcrumb.php:152
+#, php-format
+#@ better-studio
+msgid "Week %s"
+msgstr ""
+
+#: includes/libs/better-framework/libs/class-bf-breadcrumb.php:698
+#@ better-studio
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: includes/libs/better-framework/libs/class-bf-breadcrumb.php:717
+#@ better-studio
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: includes/libs/better-framework/libs/class-bf-breadcrumb.php:735
+#@ better-studio
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: includes/libs/better-framework/libs/class-bf-breadcrumb.php:753
+#: includes/libs/better-framework/libs/class-bf-breadcrumb.php:811
+#: includes/libs/better-framework/libs/class-bf-breadcrumb.php:1034
+#@ better-studio
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: includes/libs/better-framework/libs/class-bf-breadcrumb.php:754
+#: includes/libs/better-framework/libs/class-bf-breadcrumb.php:1038
+#@ better-studio
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: includes/libs/better-framework/libs/class-bf-breadcrumb.php:783
+#@ better-studio
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-about-shortcode.php:14
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-about-shortcode.php:22
+#@ better-studio
+msgid "About"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-about-shortcode.php:16
+#@ better-studio
+msgid "BetterStudio \"About\" Site Add-on"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-about-shortcode.php:103
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-advertisement-code-shortcode.php:86
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-advertisement-image-shortcode.php:92
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-flickr-shortcode.php:197
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-likebox-shortcode.php:103
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-social-share-shortcode.php:190
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-twitter-shortcode.php:248
+#: includes/shortcodes/content-listing/class-bm-content-listing-1-shortcode.php:128
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:277
+#: includes/shortcodes/content-listing/class-bm-content-listing-17-shortcode.php:205
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:259
+#: includes/shortcodes/content-listing/class-bm-content-listing-19-shortcode.php:203
+#: includes/shortcodes/content-listing/class-bm-content-listing-2-shortcode.php:164
+#: includes/shortcodes/content-listing/class-bm-content-tab-listing-shortcode.php:210
+#: includes/shortcodes/content-listing/class-bm-listing.php:131
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:19
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-11-shortcode.php:163
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-12-shortcode.php:157
+#: includes/shortcodes/user-listing/class-bm-user-listing-1-shortcode.php:167
+#: includes/shortcodes/user-listing/class-bm-user-listing-2-shortcode.php:174
+#@ better-studio
+msgid "Content"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-about-shortcode.php:109
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-flickr-shortcode.php:202
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-social-share-shortcode.php:197
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-twitter-shortcode.php:254
+#@ better-studio
+msgid "Section Title"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-about-shortcode.php:116
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-advertisement-code-shortcode.php:100
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-advertisement-image-shortcode.php:106
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-flickr-shortcode.php:208
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-likebox-shortcode.php:115
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-social-share-shortcode.php:204
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-twitter-shortcode.php:260
+#@ better-studio
+msgid "Show Title?"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-about-shortcode.php:138
+#: includes/libs/better-framework/widget/widgets/class-bf-about-widget.php:41
+#@ better-studio
+msgid "Select As Logo"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-about-shortcode.php:144
+#@ better-studio
+msgid "About Text"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-advertisement-code-shortcode.php:14
+#@ better-studio
+msgid "Advertisement Code"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-advertisement-code-shortcode.php:16
+#@ better-studio
+msgid "BetterStudio Advertisements Code"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-advertisement-code-shortcode.php:93
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-advertisement-image-shortcode.php:99
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-likebox-shortcode.php:109
+#: includes/libs/better-framework/widget/widgets/class-bf-social-share-widget.php:19
+#: includes/widgets/class-bm-posts-listing-widget.php:17
+#@ better-studio
+msgid "Title"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-advertisement-code-shortcode.php:108
+#: includes/libs/better-framework/widget/widgets/class-bf-advertisement-code-widget.php:26
+#@ better-studio
+msgid "Code"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-advertisement-code-shortcode.php:111
+#@ better-studio
+msgid "You can use shortcodes."
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-advertisement-image-shortcode.php:14
+#@ better-studio
+msgid "Advertisement Image"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-advertisement-image-shortcode.php:16
+#@ better-studio
+msgid "BetterStudio Advertisements Image"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-advertisement-image-shortcode.php:114
+#: includes/libs/better-framework/widget/widgets/class-bf-advertisement-image-widget.php:26
+#@ better-studio
+msgid "Image"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-advertisement-image-shortcode.php:117
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-advertisement-image-shortcode.php:119
+#@ better-studio
+msgid "Upload Advertisement Image"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-advertisement-image-shortcode.php:118
+#@ better-studio
+msgid "Remove Advertisement Image"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-advertisement-image-shortcode.php:120
+#@ better-studio
+msgid "Select As Advertisement Image"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-advertisement-image-shortcode.php:126
+#: includes/libs/better-framework/widget/widgets/class-bf-advertisement-image-widget.php:36
+#@ better-studio
+msgid "Caption (Optional)"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-advertisement-image-shortcode.php:134
+#: includes/libs/better-framework/widget/widgets/class-bf-advertisement-image-widget.php:43
+#@ better-studio
+msgid "Link"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-advertisement-image-shortcode.php:142
+#: includes/libs/better-framework/widget/widgets/class-bf-advertisement-image-widget.php:50
+#@ better-studio
+msgid "Where To Open The link?"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-advertisement-image-shortcode.php:146
+#: includes/libs/better-framework/widget/widgets/class-bf-advertisement-image-widget.php:55
+#@ better-studio
+msgid "_blank - in new window or tab"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-advertisement-image-shortcode.php:147
+#: includes/libs/better-framework/widget/widgets/class-bf-advertisement-image-widget.php:56
+#@ better-studio
+msgid "_self - in the same frame as it was clicked"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-advertisement-image-shortcode.php:148
+#: includes/libs/better-framework/widget/widgets/class-bf-advertisement-image-widget.php:57
+#@ better-studio
+msgid "_parent - in the parent frame"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-advertisement-image-shortcode.php:149
+#: includes/libs/better-framework/widget/widgets/class-bf-advertisement-image-widget.php:58
+#@ better-studio
+msgid "_top - in the full body of the window"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-flickr-shortcode.php:16
+#@ better-studio
+msgid "Latest photos from Flickr."
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-flickr-shortcode.php:22
+#@ better-studio
+msgid "Flickr Photos"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-flickr-shortcode.php:216
+#: includes/libs/better-framework/widget/widgets/class-bf-flickr-widget.php:19
+#@ better-studio
+msgid ""
+"<p>You need to get the user id from your Flickr account.</p>\n"
+"                <ol>\n"
+"                    <li>Attain your user id using <a href=\"http://goo.gl/pHx7LV\" target=\"_blank\">this tool</a></li>\n"
+"                    <li>Copy the user id</li>\n"
+"                    <li>Paste it in the \"Flickr ID\" input box below</li>\n"
+"                </ol>\n"
+"                "
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-flickr-shortcode.php:230
+#@ better-studio
+msgid "Flickr ID (<a href=\"http://www.idgettr.com\">Get Your ID</a>)"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-flickr-shortcode.php:237
+#@ better-studio
+msgid "Number of Photos"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-flickr-shortcode.php:244
+#@ better-studio
+msgid "Tags (comma separated, optional)"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-likebox-shortcode.php:14
+#@ better-studio
+msgid "Like Box"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-likebox-shortcode.php:16
+#: includes/libs/better-framework/widget/widgets/class-bf-likebox-widget.php:81
+#@ better-studio
+msgid "Display a Facebook Like Box"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-likebox-shortcode.php:135
+#: includes/libs/better-framework/widget/widgets/class-bf-likebox-widget.php:35
+#@ better-studio
+msgid "Link to you Facebook page"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-likebox-shortcode.php:141
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-social-share-shortcode.php:210
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-twitter-shortcode.php:266
+#: includes/libs/better-framework/widget/widgets/class-bf-social-share-widget.php:26
+#: includes/libs/better-framework/widget/widgets/class-bf-twitter-widget.php:22
+#: includes/widgets/class-bm-posts-listing-widget.php:35
+#: includes/widgets/class-bm-recent-tab-widget.php:48
+#@ better-studio
+msgid "Style"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-likebox-shortcode.php:146
+#: includes/libs/better-framework/widget/widgets/class-bf-likebox-widget.php:47
+#@ better-studio
+msgid "Light Schema"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-likebox-shortcode.php:147
+#@ better-studio
+msgid "Style Schema"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-likebox-shortcode.php:154
+#: includes/libs/better-framework/widget/widgets/class-bf-likebox-widget.php:52
+#@ better-studio
+msgid "Show Posts?"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-likebox-shortcode.php:161
+#: includes/libs/better-framework/widget/widgets/class-bf-likebox-widget.php:58
+#@ better-studio
+msgid "Show faces?"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-likebox-shortcode.php:168
+#: includes/libs/better-framework/widget/widgets/class-bf-likebox-widget.php:64
+#@ better-studio
+msgid "Show Header?"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-likebox-shortcode.php:175
+#: includes/libs/better-framework/widget/widgets/class-bf-likebox-widget.php:70
+#@ better-studio
+msgid "Show Border?"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-1-shortcode.php:134
+#: includes/shortcodes/content-listing/class-bm-content-listing-2-shortcode.php:170
+#: includes/shortcodes/content-listing/class-bm-listing.php:137
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:40
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-11-shortcode.php:184
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-12-shortcode.php:178
+#: includes/widgets/class-bm-posts-listing-widget.php:56
+#: includes/widgets/class-bm-posts-listing-widget.php:64
+#: includes/widgets/class-bm-recent-tab-widget.php:72
+#: includes/widgets/class-bm-recent-tab-widget.php:83
+#@ better-studio
+msgid "Category"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-1-shortcode.php:71
+#: includes/shortcodes/content-listing/class-bm-content-listing-1-shortcode.php:137
+#: includes/shortcodes/content-listing/class-bm-content-listing-10-shortcode.php:69
+#: includes/shortcodes/content-listing/class-bm-content-listing-11-shortcode.php:68
+#: includes/shortcodes/content-listing/class-bm-content-listing-12-shortcode.php:69
+#: includes/shortcodes/content-listing/class-bm-content-listing-13-shortcode.php:69
+#: includes/shortcodes/content-listing/class-bm-content-listing-14-shortcode.php:69
+#: includes/shortcodes/content-listing/class-bm-content-listing-15-shortcode.php:67
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:89
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:155
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:215
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:294
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:389
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:484
+#: includes/shortcodes/content-listing/class-bm-content-listing-17-shortcode.php:81
+#: includes/shortcodes/content-listing/class-bm-content-listing-17-shortcode.php:144
+#: includes/shortcodes/content-listing/class-bm-content-listing-17-shortcode.php:222
+#: includes/shortcodes/content-listing/class-bm-content-listing-17-shortcode.php:317
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:88
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:148
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:201
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:276
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:371
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:467
+#: includes/shortcodes/content-listing/class-bm-content-listing-19-shortcode.php:79
+#: includes/shortcodes/content-listing/class-bm-content-listing-19-shortcode.php:141
+#: includes/shortcodes/content-listing/class-bm-content-listing-19-shortcode.php:220
+#: includes/shortcodes/content-listing/class-bm-content-listing-19-shortcode.php:316
+#: includes/shortcodes/content-listing/class-bm-content-listing-2-shortcode.php:74
+#: includes/shortcodes/content-listing/class-bm-content-listing-2-shortcode.php:173
+#: includes/shortcodes/content-listing/class-bm-content-listing-3-shortcode.php:66
+#: includes/shortcodes/content-listing/class-bm-content-listing-4-shortcode.php:69
+#: includes/shortcodes/content-listing/class-bm-content-listing-5-shortcode.php:67
+#: includes/shortcodes/content-listing/class-bm-content-listing-6-shortcode.php:68
+#: includes/shortcodes/content-listing/class-bm-content-listing-7-shortcode.php:68
+#: includes/shortcodes/content-listing/class-bm-content-listing-8-shortcode.php:68
+#: includes/shortcodes/content-listing/class-bm-content-listing-9-shortcode.php:69
+#: includes/shortcodes/content-listing/class-bm-listing.php:25
+#: includes/shortcodes/content-listing/class-bm-listing.php:47
+#: includes/shortcodes/content-listing/class-bm-listing.php:107
+#: includes/shortcodes/content-listing/class-bm-listing.php:140
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:43
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:190
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:294
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:395
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:496
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:599
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:703
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:805
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:905
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:1005
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:1105
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-11-shortcode.php:87
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-11-shortcode.php:187
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-12-shortcode.php:86
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-12-shortcode.php:181
+#: includes/widgets/class-bm-posts-listing-widget.php:61
+#@ better-studio
+msgid "All Posts"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-social-share-shortcode.php:238
+#: includes/libs/better-framework/widget/widgets/class-bf-social-share-widget.php:52
+#@ better-studio
+msgid "Show in colored  style?"
+msgstr ""
+
+#: includes/shortcodes/user-listing/class-bm-user-listing-1-shortcode.php:249
+#@ better-studio
+msgid "1 Column"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-social-share-shortcode.php:246
+#@ better-studio
+msgid "Active and Sort Sites"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-social-share-shortcode.php:14
+#@ better-studio
+msgid "Social Share"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-social-share-shortcode.php:16
+#@ better-studio
+msgid "BetterStudio Social Share Add-on"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-twitter-shortcode.php:16
+#: includes/libs/better-framework/widget/widgets/class-bf-twitter-widget.php:112
+#@ better-studio
+msgid "Latest tweets widget."
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-twitter-shortcode.php:22
+#@ better-studio
+msgid "Latest Tweets"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-twitter-shortcode.php:125
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-twitter-shortcode.php:134
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-twitter-shortcode.php:150
+#@ better-studio
+msgid "ago"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-twitter-shortcode.php:138
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-twitter-shortcode.php:154
+#@ better-studio
+msgid "Retweet"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-twitter-shortcode.php:139
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-twitter-shortcode.php:155
+#@ better-studio
+msgid "Favorite"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-twitter-shortcode.php:294
+#: includes/libs/better-framework/widget/widgets/class-bf-twitter-widget.php:50
+#@ better-studio
+msgid ""
+"\n"
+"<p>You need to authenticate yourself to Twitter with creating an app for get access information to retrieve your tweets and display them on your page.</p><ol>\n"
+"    <li>Go to <a href=\"http://goo.gl/tyCR5W\" target=\"_blank\">https://apps.twitter.com/app/new</a> and log in, if necessary</li>\n"
+"    <li>Enter your Application Name, Description and your website address. You can leave the callback URL empty.</li>\n"
+"    <li>Submit the form by clicking the Create your Twitter Application</li>\n"
+"    <li>Go to the \"Keys and Access Token\" tab and copy the consumer key (API key) and consumer secret</li>\n"
+"    <li>Paste them in the following input boxes</li>\n"
+"    <li>Click on the \"Create my access token\" in bottom of page for creating access token and copy them</li>\n"
+"    <li>Paste them in the following input boxes</li>\n"
+"  </ol>\n"
+"                "
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-twitter-shortcode.php:319
+#@ better-studio
+msgid "Consumer Key"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-twitter-shortcode.php:333
+#@ better-studio
+msgid "Access Secret"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-twitter-shortcode.php:340
+#@ better-studio
+msgid "Access Token"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-twitter-shortcode.php:347
+#@ better-studio
+msgid "Number of Tweets"
+msgstr ""
+
+#: includes/libs/better-framework/shortcode/shortcodes/class-bf-twitter-shortcode.php:354
+#@ better-studio
+msgid "Open Tweet Links in New Page"
+msgstr ""
+
+#: includes/libs/better-framework/widget/class-bf-widgets-general-fields.php:58
+#@ better-studio
+msgid "Widget Title Color"
+msgstr ""
+
+#: includes/libs/better-framework/widget/widgets/class-bf-about-widget.php:16
+#: includes/libs/better-framework/widget/widgets/class-bf-flickr-widget.php:31
+#: includes/libs/better-framework/widget/widgets/class-bf-twitter-widget.php:16
+#@ better-studio
+msgid "Title:"
+msgstr ""
+
+#: includes/libs/better-framework/widget/widgets/class-bf-about-widget.php:22
+#@ better-studio
+msgid "About Site:"
+msgstr ""
+
+#: includes/libs/better-framework/widget/widgets/class-bf-about-widget.php:28
+#@ better-studio
+msgid "Logo Text:"
+msgstr ""
+
+#: includes/libs/better-framework/widget/widgets/class-bf-about-widget.php:34
+#@ better-studio
+msgid "Logo Image:"
+msgstr ""
+
+#: includes/libs/better-framework/widget/widgets/class-bf-about-widget.php:48
+#@ better-studio
+msgid "BetterStudio - About"
+msgstr ""
+
+#: includes/libs/better-framework/widget/widgets/class-bf-about-widget.php:49
+#@ better-studio
+msgid "\"About\" site widget."
+msgstr ""
+
+#: includes/libs/better-framework/widget/widgets/class-bf-advertisement-code-widget.php:19
+#: includes/libs/better-framework/widget/widgets/class-bf-advertisement-image-widget.php:19
+#@ better-studio
+msgid "Title (Optional)"
+msgstr ""
+
+#: includes/libs/better-framework/widget/widgets/class-bf-advertisement-code-widget.php:35
+#@ better-studio
+msgid "BetterStudio - Advertisement Code"
+msgstr ""
+
+#: includes/libs/better-framework/widget/widgets/class-bf-advertisement-code-widget.php:36
+#@ better-studio
+msgid "Advertisement Code Widget"
+msgstr ""
+
+#: includes/libs/better-framework/widget/widgets/class-bf-advertisement-image-widget.php:29
+#: includes/libs/better-framework/widget/widgets/class-bf-advertisement-image-widget.php:31
+#@ better-studio
+msgid "Upload Ad Image"
+msgstr ""
+
+#: includes/libs/better-framework/widget/widgets/class-bf-advertisement-image-widget.php:30
+#@ better-studio
+msgid "Remove Ad Image"
+msgstr ""
+
+#: includes/libs/better-framework/widget/widgets/class-bf-advertisement-image-widget.php:32
+#@ better-studio
+msgid "Select As Ad Image"
+msgstr ""
+
+#: includes/libs/better-framework/widget/widgets/class-bf-advertisement-image-widget.php:67
+#@ better-studio
+msgid "BetterStudio - Advertisement Image"
+msgstr ""
+
+#: includes/libs/better-framework/widget/widgets/class-bf-advertisement-image-widget.php:68
+#@ better-studio
+msgid "Advertisement Image Widget"
+msgstr ""
+
+#: includes/libs/better-framework/widget/widgets/class-bf-flickr-widget.php:37
+#@ better-studio
+msgid "Flickr ID:"
+msgstr ""
+
+#: includes/libs/better-framework/widget/widgets/class-bf-flickr-widget.php:43
+#@ better-studio
+msgid "Number of Photos:"
+msgstr ""
+
+#: includes/libs/better-framework/widget/widgets/class-bf-flickr-widget.php:49
+#@ better-studio
+msgid "Tags (comma separated, optional):"
+msgstr ""
+
+#: includes/libs/better-framework/widget/widgets/class-bf-flickr-widget.php:58
+#@ better-studio
+msgid "BetterStudio - Flickr"
+msgstr ""
+
+#: includes/libs/better-framework/widget/widgets/class-bf-flickr-widget.php:59
+#@ better-studio
+msgid "Display latest photos from Flickr."
+msgstr ""
+
+#: includes/libs/better-framework/widget/widgets/class-bf-likebox-widget.php:29
+#@ better-studio
+msgid "Title (Optional):"
+msgstr ""
+
+#: includes/libs/better-framework/widget/widgets/class-bf-likebox-widget.php:41
+#@ better-studio
+msgid "Color Scheme"
+msgstr ""
+
+#: includes/libs/better-framework/widget/widgets/class-bf-likebox-widget.php:48
+#@ better-studio
+msgid "Dark Schema"
+msgstr ""
+
+#: includes/libs/better-framework/widget/widgets/class-bf-likebox-widget.php:80
+#@ better-studio
+msgid "BetterStudio - Like Box"
+msgstr ""
+
+#: includes/libs/better-framework/widget/widgets/class-bf-social-share-widget.php:58
+#@ better-studio
+msgid "Sort and Active Sites"
+msgstr ""
+
+#: includes/libs/better-framework/widget/widgets/class-bf-social-share-widget.php:98
+#@ better-studio
+msgid "BetterStudio - Social Share"
+msgstr ""
+
+#: includes/libs/better-framework/widget/widgets/class-bf-social-share-widget.php:99
+#@ better-studio
+msgid "Social Share Widget"
+msgstr ""
+
+#: includes/libs/better-framework/widget/widgets/class-bf-twitter-widget.php:66
+#@ better-studio
+msgid "Username:"
+msgstr ""
+
+#: includes/libs/better-framework/widget/widgets/class-bf-twitter-widget.php:72
+#@ better-studio
+msgid "Consumer Key:"
+msgstr ""
+
+#: includes/libs/better-framework/widget/widgets/class-bf-twitter-widget.php:78
+#@ better-studio
+msgid "Consumer Secret:"
+msgstr ""
+
+#: includes/libs/better-framework/widget/widgets/class-bf-twitter-widget.php:84
+#@ better-studio
+msgid "Access Token:"
+msgstr ""
+
+#: includes/libs/better-framework/widget/widgets/class-bf-twitter-widget.php:90
+#@ better-studio
+msgid "Access Secret:"
+msgstr ""
+
+#: includes/libs/better-framework/widget/widgets/class-bf-twitter-widget.php:96
+#@ better-studio
+msgid "Number of Tweets:"
+msgstr ""
+
+#: includes/libs/better-framework/widget/widgets/class-bf-twitter-widget.php:102
+#@ better-studio
+msgid "Open Tweet Links in New Page?"
+msgstr ""
+
+#: includes/libs/better-framework/widget/widgets/class-bf-twitter-widget.php:111
+#@ better-studio
+msgid "BetterStudio - Twitter"
+msgstr ""
+
+#: includes/libs/class-tgm-plugin-activation.php:164
+#@ better-studio
+msgid "Install Required Plugins"
+msgstr ""
+
+#: includes/libs/class-tgm-plugin-activation.php:165
+#@ better-studio
+msgid "Install Plugins"
+msgstr ""
+
+#: includes/libs/class-tgm-plugin-activation.php:166
+#, php-format
+#@ better-studio
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: includes/libs/class-tgm-plugin-activation.php:167
+#@ better-studio
+msgid "Something went wrong."
+msgstr ""
+
+#: includes/libs/class-tgm-plugin-activation.php:168
+#, php-format
+#@ better-studio
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/libs/class-tgm-plugin-activation.php:169
+#, php-format
+#@ better-studio
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/libs/class-tgm-plugin-activation.php:171
+#, php-format
+#@ better-studio
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/libs/class-tgm-plugin-activation.php:172
+#, php-format
+#@ better-studio
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/libs/class-tgm-plugin-activation.php:173
+#, php-format
+#@ better-studio
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/libs/class-tgm-plugin-activation.php:174
+#, php-format
+#@ better-studio
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/libs/class-tgm-plugin-activation.php:175
+#, php-format
+#@ better-studio
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/libs/class-tgm-plugin-activation.php:176
+#, php-format
+#@ better-studio
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/libs/class-tgm-plugin-activation.php:177
+#@ better-studio
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/libs/class-tgm-plugin-activation.php:180
+#: includes/libs/class-tgm-plugin-activation.php:510
+#@ better-studio
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: includes/libs/class-tgm-plugin-activation.php:181
+#: includes/libs/class-tgm-plugin-activation.php:1908
+#@ better-studio
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: includes/libs/class-tgm-plugin-activation.php:182
+#, php-format
+#@ better-studio
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: includes/libs/class-tgm-plugin-activation.php:738
+#@ better-studio
+msgid "Dismiss this notice"
+msgstr ""
+
+#: includes/libs/class-tgm-plugin-activation.php:537
+#: includes/libs/class-tgm-plugin-activation.php:2120
+#@ better-studio
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: includes/libs/class-tgm-plugin-activation.php:1130
+#@ better-studio
+msgid "Private Repository"
+msgstr ""
+
+#: includes/libs/class-tgm-plugin-activation.php:1133
+#@ better-studio
+msgid "Pre-Packaged"
+msgstr ""
+
+#: includes/libs/class-tgm-plugin-activation.php:1137
+#@ better-studio
+msgid "WordPress Repository"
+msgstr ""
+
+#: includes/libs/class-tgm-plugin-activation.php:1140
+#@ better-studio
+msgid "Required"
+msgstr ""
+
+#: includes/libs/class-tgm-plugin-activation.php:1140
+#@ better-studio
+msgid "Recommended"
+msgstr ""
+
+#: includes/libs/class-tgm-plugin-activation.php:1143
+#@ better-studio
+msgid "Not Installed"
+msgstr ""
+
+#: includes/libs/class-tgm-plugin-activation.php:1145
+#@ better-studio
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: includes/libs/class-tgm-plugin-activation.php:1380
+#@ better-studio
+msgid "Install"
+msgstr ""
+
+#: includes/libs/class-tgm-plugin-activation.php:1381
+#@ better-studio
+msgid "Activate"
+msgstr ""
+
+#: includes/libs/class-tgm-plugin-activation.php:1343
+#, php-format
+#@ better-studio
+msgid "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: includes/libs/class-tgm-plugin-activation.php:1359
+#@ better-studio
+msgid "Plugin"
+msgstr ""
+
+#: includes/libs/class-tgm-plugin-activation.php:1360
+#@ better-studio
+msgid "Source"
+msgstr ""
+
+#: includes/libs/class-tgm-plugin-activation.php:1362
+#@ better-studio
+msgid "Status"
+msgstr ""
+
+#: includes/libs/class-tgm-plugin-activation.php:1606
+#@ better-studio
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/libs/class-tgm-plugin-activation.php:1891
+#@ better-studio
+msgid "Install package not available."
+msgstr ""
+
+#: includes/libs/class-tgm-plugin-activation.php:1892
+#, php-format
+#@ better-studio
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: includes/libs/class-tgm-plugin-activation.php:1893
+#@ better-studio
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: includes/libs/class-tgm-plugin-activation.php:1894
+#@ better-studio
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: includes/libs/class-tgm-plugin-activation.php:1895
+#@ better-studio
+msgid "Plugin install failed."
+msgstr ""
+
+#: includes/libs/class-tgm-plugin-activation.php:1896
+#@ better-studio
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: includes/libs/class-tgm-plugin-activation.php:1907
+#@ better-studio
+msgid "Plugin activation failed."
+msgstr ""
+
+#: includes/libs/class-tgm-plugin-activation.php:2017
+#@ better-studio
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: includes/libs/class-tgm-plugin-activation.php:2018
+#, php-format
+#@ better-studio
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: includes/libs/class-tgm-plugin-activation.php:2018
+#: includes/libs/class-tgm-plugin-activation.php:2027
+#@ better-studio
+msgid "Show Details"
+msgstr ""
+
+#: includes/libs/class-tgm-plugin-activation.php:2018
+#: includes/libs/class-tgm-plugin-activation.php:2027
+#@ better-studio
+msgid "Hide Details"
+msgstr ""
+
+#: includes/libs/class-tgm-plugin-activation.php:2019
+#@ better-studio
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: includes/libs/class-tgm-plugin-activation.php:2020
+#, php-format
+#@ better-studio
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/libs/class-tgm-plugin-activation.php:2024
+#@ better-studio
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: includes/libs/class-tgm-plugin-activation.php:2025
+#, php-format
+#@ better-studio
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: includes/libs/class-tgm-plugin-activation.php:2026
+#, php-format
+#@ better-studio
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: includes/libs/class-tgm-plugin-activation.php:2027
+#, php-format
+#@ better-studio
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: includes/libs/class-tgm-plugin-activation.php:2028
+#@ better-studio
+msgid "All installations have been completed."
+msgstr ""
+
+#: includes/libs/class-tgm-plugin-activation.php:2029
+#, php-format
+#@ better-studio
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/libs/review/class-betterstudio-review-generator.php:165
+#: includes/libs/review/class-betterstudio-review.php:233
+#: includes/libs/review/class-betterstudio-review.php:240
+#@ better-studio
+msgid "Criteria"
+msgstr ""
+
+#: includes/libs/review/class-betterstudio-review.php:76
+#@ better-studio
+msgid "Overall Rating"
+msgstr ""
+
+#: includes/libs/review/class-betterstudio-review.php:104
+#: includes/shortcodes/content-listing/class-bm-content-listing-1-shortcode.php:170
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:327
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:422
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:517
+#: includes/shortcodes/content-listing/class-bm-content-listing-17-shortcode.php:255
+#: includes/shortcodes/content-listing/class-bm-content-listing-17-shortcode.php:350
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:309
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:405
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:501
+#: includes/shortcodes/content-listing/class-bm-content-listing-19-shortcode.php:254
+#: includes/shortcodes/content-listing/class-bm-content-listing-19-shortcode.php:350
+#: includes/shortcodes/content-listing/class-bm-content-listing-2-shortcode.php:206
+#: includes/shortcodes/content-listing/class-bm-content-tab-listing-shortcode.php:320
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:76
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-11-shortcode.php:248
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-12-shortcode.php:235
+#@ better-studio
+msgid "Reviews"
+msgstr ""
+
+#: includes/libs/review/class-betterstudio-review.php:110
+#@ better-studio
+msgid "Review Stars"
+msgstr ""
+
+#: includes/libs/review/class-betterstudio-review.php:117
+#@ better-studio
+msgid "Review Percentage"
+msgstr ""
+
+#: includes/libs/review/class-betterstudio-review.php:124
+#@ better-studio
+msgid "Review Points"
+msgstr ""
+
+#: includes/libs/review/class-betterstudio-review.php:160
+#@ better-studio
+msgid "Review Options"
+msgstr ""
+
+#: includes/libs/review/class-betterstudio-review.php:169
+#@ better-studio
+msgid "Enable Review?"
+msgstr ""
+
+#: includes/libs/review/class-betterstudio-review.php:181
+#@ better-studio
+msgid "Select postion of review box on single page or not showing that. You can select \"Do not display!\" option and use shortcode to showing review box inside post text."
+msgstr ""
+
+#: includes/libs/review/class-betterstudio-review.php:183
+#@ better-studio
+msgid "Do not display!"
+msgstr ""
+
+#: includes/libs/review/class-betterstudio-review.php:184
+#@ better-studio
+msgid "Top"
+msgstr ""
+
+#: includes/libs/review/class-betterstudio-review.php:185
+#@ better-studio
+msgid "Bottom"
+msgstr ""
+
+#: includes/libs/review/class-betterstudio-review.php:190
+#@ better-studio
+msgid "Show Rating As"
+msgstr ""
+
+#: includes/libs/review/class-betterstudio-review.php:198
+#@ better-studio
+msgid "Stars"
+msgstr ""
+
+#: includes/libs/review/class-betterstudio-review.php:202
+#@ better-studio
+msgid "Percentage"
+msgstr ""
+
+#: includes/libs/review/class-betterstudio-review.php:206
+#@ better-studio
+msgid "Points"
+msgstr ""
+
+#: includes/libs/review/class-betterstudio-review.php:212
+#@ better-studio
+msgid "Heading (optional)"
+msgstr ""
+
+#: includes/libs/review/class-betterstudio-review.php:219
+#@ better-studio
+msgid "Verdict"
+msgstr ""
+
+#: includes/libs/review/class-betterstudio-review.php:221
+#@ better-studio
+msgid "Awesome"
+msgstr ""
+
+#: includes/libs/review/class-betterstudio-review.php:226
+#@ better-studio
+msgid "Verdict Summary"
+msgstr ""
+
+#: includes/libs/review/class-betterstudio-review.php:238
+#@ better-studio
+msgid "Add Criteria"
+msgstr ""
+
+#: includes/libs/review/class-betterstudio-review.php:239
+#@ better-studio
+msgid "Delete Criteria"
+msgstr ""
+
+#: includes/libs/review/class-betterstudio-review.php:243
+#@ better-studio
+msgid "Label"
+msgstr ""
+
+#: includes/libs/review/class-betterstudio-review.php:251
+#@ better-studio
+msgid "Rating / 10"
+msgstr ""
+
+#: includes/libs/review/class-betterstudio-review.php:261
+#@ better-studio
+msgid "Extra Verdict Description in Bottom of Review Box"
+msgstr ""
+
+#: includes/shortcodes/class-bm-block-title-shortcode.php:11
+#@ better-studio
+msgid "Block Title"
+msgstr ""
+
+#: includes/shortcodes/class-bm-feedburner-shortcode.php:13
+#@ better-studio
+msgid "Subscribe"
+msgstr ""
+
+#: includes/shortcodes/class-bm-posts-listing-shortcode.php:14
+#@ better-studio
+msgid "Posts"
+msgstr ""
+
+#: includes/shortcodes/class-bm-posts-listing-shortcode.php:129
+#: includes/shortcodes/class-bm-posts-listing-shortcode.php:132
+#: includes/shortcodes/class-bm-recent-tab-shortcode.php:260
+#: includes/shortcodes/class-bm-recent-tab-shortcode.php:263
+#: includes/shortcodes/content-listing/class-bm-content-tab-listing-shortcode.php:169
+#: includes/shortcodes/content-listing/class-bm-content-tab-listing-shortcode.php:187
+#@ better-studio
+msgid "Read More... "
+msgstr ""
+
+#: includes/shortcodes/class-bm-recent-tab-shortcode.php:23
+#@ better-studio
+msgid "Popular"
+msgstr ""
+
+#: includes/shortcodes/class-bm-recent-tab-shortcode.php:93
+#: includes/widgets/class-bm-posts-listing-widget.php:29
+#: includes/widgets/class-bm-recent-tab-widget.php:79
+#: vc_templates/vc_wp_posts.php:4
+#@ better-studio
+msgid "Recent Posts"
+msgstr ""
+
+#: includes/shortcodes/class-bm-recent-tab-shortcode.php:101
+#: includes/widgets/class-bm-posts-listing-widget.php:30
+#: includes/widgets/class-bm-recent-tab-widget.php:80
+#@ better-studio
+msgid "Popular Posts"
+msgstr ""
+
+#: includes/shortcodes/class-bm-wc-cart-shortcode.php:46
+#@ better-studio
+msgid "Shopping Cart"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-1-shortcode.php:12
+#@ better-studio
+msgid "Content Listing 1"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-1-shortcode.php:14
+#@ better-studio
+msgid "Blog style listing"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-1-shortcode.php:143
+#: includes/shortcodes/content-listing/class-bm-content-listing-2-shortcode.php:179
+#: includes/shortcodes/content-listing/class-bm-listing.php:146
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:49
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-11-shortcode.php:193
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-12-shortcode.php:187
+#: template-site-map.php:32
+#: vc_templates/vc_wp_tagcloud.php:4
+#@ better-studio
+msgid "Tags"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-1-shortcode.php:148
+#: includes/shortcodes/content-listing/class-bm-content-listing-2-shortcode.php:184
+#: includes/shortcodes/content-listing/class-bm-listing.php:151
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:54
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-11-shortcode.php:198
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-12-shortcode.php:192
+#@ better-studio
+msgid "Search tag..."
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-1-shortcode.php:149
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:306
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:401
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:496
+#: includes/shortcodes/content-listing/class-bm-content-listing-17-shortcode.php:234
+#: includes/shortcodes/content-listing/class-bm-content-listing-17-shortcode.php:329
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:288
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:384
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:480
+#: includes/shortcodes/content-listing/class-bm-content-listing-19-shortcode.php:233
+#: includes/shortcodes/content-listing/class-bm-content-listing-19-shortcode.php:329
+#: includes/shortcodes/content-listing/class-bm-content-listing-2-shortcode.php:185
+#: includes/shortcodes/content-listing/class-bm-listing.php:152
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:55
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-11-shortcode.php:199
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-12-shortcode.php:193
+#@ better-studio
+msgid "Search and select tags. You can use combination of Category and Tags!"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-1-shortcode.php:154
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:311
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:406
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:501
+#: includes/shortcodes/content-listing/class-bm-content-listing-17-shortcode.php:239
+#: includes/shortcodes/content-listing/class-bm-content-listing-17-shortcode.php:334
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:293
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:389
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:485
+#: includes/shortcodes/content-listing/class-bm-content-listing-19-shortcode.php:238
+#: includes/shortcodes/content-listing/class-bm-content-listing-19-shortcode.php:334
+#: includes/shortcodes/content-listing/class-bm-content-listing-2-shortcode.php:190
+#: includes/shortcodes/content-listing/class-bm-content-tab-listing-shortcode.php:304
+#: includes/shortcodes/content-listing/class-bm-listing.php:157
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:60
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-11-shortcode.php:211
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-12-shortcode.php:198
+#@ better-studio
+msgid "Show read more button?"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-1-shortcode.php:161
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:318
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:413
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:508
+#: includes/shortcodes/content-listing/class-bm-content-listing-17-shortcode.php:246
+#: includes/shortcodes/content-listing/class-bm-content-listing-17-shortcode.php:341
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:300
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:396
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:492
+#: includes/shortcodes/content-listing/class-bm-content-listing-19-shortcode.php:245
+#: includes/shortcodes/content-listing/class-bm-content-listing-19-shortcode.php:341
+#: includes/shortcodes/content-listing/class-bm-content-listing-2-shortcode.php:197
+#: includes/shortcodes/content-listing/class-bm-content-tab-listing-shortcode.php:311
+#: includes/shortcodes/content-listing/class-bm-listing.php:173
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:67
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-11-shortcode.php:239
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-12-shortcode.php:226
+#@ better-studio
+msgid "Order By"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-1-shortcode.php:166
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:323
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:418
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:513
+#: includes/shortcodes/content-listing/class-bm-content-listing-17-shortcode.php:251
+#: includes/shortcodes/content-listing/class-bm-content-listing-17-shortcode.php:346
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:305
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:401
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:497
+#: includes/shortcodes/content-listing/class-bm-content-listing-19-shortcode.php:250
+#: includes/shortcodes/content-listing/class-bm-content-listing-19-shortcode.php:346
+#: includes/shortcodes/content-listing/class-bm-content-listing-2-shortcode.php:202
+#: includes/shortcodes/content-listing/class-bm-content-tab-listing-shortcode.php:316
+#: includes/shortcodes/content-listing/class-bm-listing.php:178
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:72
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-11-shortcode.php:244
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-12-shortcode.php:231
+#@ better-studio
+msgid "Published Date"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-1-shortcode.php:167
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:324
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:419
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:514
+#: includes/shortcodes/content-listing/class-bm-content-listing-17-shortcode.php:252
+#: includes/shortcodes/content-listing/class-bm-content-listing-17-shortcode.php:347
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:306
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:402
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:498
+#: includes/shortcodes/content-listing/class-bm-content-listing-19-shortcode.php:251
+#: includes/shortcodes/content-listing/class-bm-content-listing-19-shortcode.php:347
+#: includes/shortcodes/content-listing/class-bm-content-listing-2-shortcode.php:203
+#: includes/shortcodes/content-listing/class-bm-content-tab-listing-shortcode.php:317
+#: includes/shortcodes/content-listing/class-bm-listing.php:179
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:73
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-11-shortcode.php:245
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-12-shortcode.php:232
+#@ better-studio
+msgid "Modified Date"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-1-shortcode.php:168
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:325
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:420
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:515
+#: includes/shortcodes/content-listing/class-bm-content-listing-17-shortcode.php:253
+#: includes/shortcodes/content-listing/class-bm-content-listing-17-shortcode.php:348
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:307
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:403
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:499
+#: includes/shortcodes/content-listing/class-bm-content-listing-19-shortcode.php:252
+#: includes/shortcodes/content-listing/class-bm-content-listing-19-shortcode.php:348
+#: includes/shortcodes/content-listing/class-bm-content-listing-2-shortcode.php:204
+#: includes/shortcodes/content-listing/class-bm-content-tab-listing-shortcode.php:318
+#: includes/shortcodes/content-listing/class-bm-listing.php:180
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:74
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-11-shortcode.php:246
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-12-shortcode.php:233
+#: includes/shortcodes/user-listing/class-bm-user-listing-1-shortcode.php:209
+#: includes/shortcodes/user-listing/class-bm-user-listing-2-shortcode.php:215
+#@ better-studio
+msgid "Random"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-1-shortcode.php:169
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:326
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:421
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:516
+#: includes/shortcodes/content-listing/class-bm-content-listing-17-shortcode.php:254
+#: includes/shortcodes/content-listing/class-bm-content-listing-17-shortcode.php:349
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:308
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:404
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:500
+#: includes/shortcodes/content-listing/class-bm-content-listing-19-shortcode.php:253
+#: includes/shortcodes/content-listing/class-bm-content-listing-19-shortcode.php:349
+#: includes/shortcodes/content-listing/class-bm-content-listing-2-shortcode.php:205
+#: includes/shortcodes/content-listing/class-bm-content-tab-listing-shortcode.php:319
+#: includes/shortcodes/content-listing/class-bm-listing.php:181
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:75
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-11-shortcode.php:247
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-12-shortcode.php:234
+#@ better-studio
+msgid "Number of Comments"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-1-shortcode.php:176
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:333
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:428
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:523
+#: includes/shortcodes/content-listing/class-bm-content-listing-17-shortcode.php:261
+#: includes/shortcodes/content-listing/class-bm-content-listing-17-shortcode.php:356
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:315
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:411
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:507
+#: includes/shortcodes/content-listing/class-bm-content-listing-19-shortcode.php:260
+#: includes/shortcodes/content-listing/class-bm-content-listing-19-shortcode.php:356
+#: includes/shortcodes/content-listing/class-bm-content-listing-2-shortcode.php:212
+#: includes/shortcodes/content-listing/class-bm-content-tab-listing-shortcode.php:326
+#: includes/shortcodes/content-listing/class-bm-listing.php:187
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:82
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-11-shortcode.php:254
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-12-shortcode.php:241
+#: includes/shortcodes/user-listing/class-bm-user-listing-1-shortcode.php:216
+#: includes/shortcodes/user-listing/class-bm-user-listing-2-shortcode.php:222
+#: includes/widgets/class-bm-posts-listing-widget.php:24
+#@ better-studio
+msgid "Order"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-1-shortcode.php:181
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:338
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:433
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:528
+#: includes/shortcodes/content-listing/class-bm-content-listing-17-shortcode.php:266
+#: includes/shortcodes/content-listing/class-bm-content-listing-17-shortcode.php:361
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:320
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:416
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:512
+#: includes/shortcodes/content-listing/class-bm-content-listing-19-shortcode.php:265
+#: includes/shortcodes/content-listing/class-bm-content-listing-19-shortcode.php:361
+#: includes/shortcodes/content-listing/class-bm-content-listing-2-shortcode.php:217
+#: includes/shortcodes/content-listing/class-bm-content-tab-listing-shortcode.php:331
+#: includes/shortcodes/content-listing/class-bm-listing.php:192
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:87
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-11-shortcode.php:259
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-12-shortcode.php:246
+#@ better-studio
+msgid "Latest First - Descending"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-1-shortcode.php:182
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:339
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:434
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:529
+#: includes/shortcodes/content-listing/class-bm-content-listing-17-shortcode.php:267
+#: includes/shortcodes/content-listing/class-bm-content-listing-17-shortcode.php:362
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:321
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:417
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:513
+#: includes/shortcodes/content-listing/class-bm-content-listing-19-shortcode.php:266
+#: includes/shortcodes/content-listing/class-bm-content-listing-19-shortcode.php:362
+#: includes/shortcodes/content-listing/class-bm-content-listing-2-shortcode.php:218
+#: includes/shortcodes/content-listing/class-bm-content-tab-listing-shortcode.php:332
+#: includes/shortcodes/content-listing/class-bm-listing.php:193
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:88
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-11-shortcode.php:260
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-12-shortcode.php:247
+#@ better-studio
+msgid "Oldest First - Ascending"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-1-shortcode.php:189
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:345
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:440
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:535
+#: includes/shortcodes/content-listing/class-bm-content-listing-17-shortcode.php:273
+#: includes/shortcodes/content-listing/class-bm-content-listing-17-shortcode.php:368
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:327
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:423
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:519
+#: includes/shortcodes/content-listing/class-bm-content-listing-19-shortcode.php:272
+#: includes/shortcodes/content-listing/class-bm-content-listing-19-shortcode.php:368
+#: includes/shortcodes/content-listing/class-bm-content-listing-2-shortcode.php:225
+#: includes/shortcodes/content-listing/class-bm-content-tab-listing-shortcode.php:338
+#: includes/shortcodes/content-listing/class-bm-listing.php:165
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-11-shortcode.php:231
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-12-shortcode.php:218
+#@ better-studio
+msgid "Number of Posts"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-1-shortcode.php:192
+#: includes/shortcodes/content-listing/class-bm-content-listing-2-shortcode.php:228
+#: includes/shortcodes/content-listing/class-bm-listing.php:168
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-11-shortcode.php:234
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-12-shortcode.php:221
+#@ better-studio
+msgid "Configures posts to show. Leave empty to use theme default number of posts."
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-1-shortcode.php:197
+#: includes/shortcodes/content-listing/class-bm-content-listing-2-shortcode.php:246
+#@ better-studio
+msgid "Show Pagination?"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-1-shortcode.php:205
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:353
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:448
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:543
+#: includes/shortcodes/content-listing/class-bm-content-listing-17-shortcode.php:281
+#: includes/shortcodes/content-listing/class-bm-content-listing-17-shortcode.php:376
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:335
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:431
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:527
+#: includes/shortcodes/content-listing/class-bm-content-listing-19-shortcode.php:280
+#: includes/shortcodes/content-listing/class-bm-content-listing-19-shortcode.php:376
+#: includes/shortcodes/content-listing/class-bm-content-listing-2-shortcode.php:254
+#: includes/shortcodes/content-listing/class-bm-listing.php:200
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:95
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-11-shortcode.php:267
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-12-shortcode.php:254
+#@ better-studio
+msgid "Custom Heading (Optional)"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-1-shortcode.php:212
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:360
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:455
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:550
+#: includes/shortcodes/content-listing/class-bm-content-listing-17-shortcode.php:288
+#: includes/shortcodes/content-listing/class-bm-content-listing-17-shortcode.php:383
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:342
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:438
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:534
+#: includes/shortcodes/content-listing/class-bm-content-listing-19-shortcode.php:287
+#: includes/shortcodes/content-listing/class-bm-content-listing-19-shortcode.php:383
+#: includes/shortcodes/content-listing/class-bm-content-listing-2-shortcode.php:261
+#: includes/shortcodes/content-listing/class-bm-listing.php:207
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:102
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-11-shortcode.php:274
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-12-shortcode.php:261
+#@ better-studio
+msgid "Custom Heading Icon (Optional)"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-1-shortcode.php:216
+#: includes/shortcodes/content-listing/class-bm-content-listing-2-shortcode.php:265
+#: includes/shortcodes/content-listing/class-bm-listing.php:211
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:106
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-11-shortcode.php:278
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-12-shortcode.php:265
+#: includes/shortcodes/user-listing/class-bm-user-listing-1-shortcode.php:268
+#: includes/shortcodes/user-listing/class-bm-user-listing-2-shortcode.php:275
+#@ better-studio
+msgid "Select custom icon for listing."
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-1-shortcode.php:221
+#: includes/shortcodes/content-listing/class-bm-content-listing-2-shortcode.php:270
+#: includes/shortcodes/content-listing/class-bm-listing.php:216
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:111
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-11-shortcode.php:283
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-12-shortcode.php:270
+#: includes/shortcodes/user-listing/class-bm-user-listing-1-shortcode.php:273
+#: includes/shortcodes/user-listing/class-bm-user-listing-2-shortcode.php:280
+#@ better-studio
+msgid "Hide listing Heading?"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-1-shortcode.php:225
+#: includes/shortcodes/content-listing/class-bm-content-listing-2-shortcode.php:274
+#: includes/shortcodes/content-listing/class-bm-listing.php:220
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:115
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-11-shortcode.php:287
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-12-shortcode.php:274
+#: includes/shortcodes/user-listing/class-bm-user-listing-1-shortcode.php:277
+#: includes/shortcodes/user-listing/class-bm-user-listing-2-shortcode.php:284
+#@ better-studio
+msgid "You can hide listing heading with turning on this field."
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-10-shortcode.php:13
+#: includes/shortcodes/content-listing/class-bm-content-tab-listing-shortcode.php:249
+#@ better-studio
+msgid "Content Listing 10"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-10-shortcode.php:15
+#@ better-studio
+msgid "1 Blog , 2 Column simple listing"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-11-shortcode.php:13
+#: includes/shortcodes/content-listing/class-bm-content-tab-listing-shortcode.php:253
+#@ better-studio
+msgid "Content Listing 11"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-11-shortcode.php:15
+#@ better-studio
+msgid "3 Column of thumbnail listing"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-12-shortcode.php:13
+#: includes/shortcodes/content-listing/class-bm-content-tab-listing-shortcode.php:257
+#@ better-studio
+msgid "Content Listing 12"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-12-shortcode.php:15
+#@ better-studio
+msgid "2 Column of thumbnail listing"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-13-shortcode.php:13
+#: includes/shortcodes/content-listing/class-bm-content-tab-listing-shortcode.php:261
+#@ better-studio
+msgid "Content Listing 13"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-13-shortcode.php:15
+#@ better-studio
+msgid "2 Column of big thumbnail listing"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-14-shortcode.php:13
+#: includes/shortcodes/content-listing/class-bm-content-tab-listing-shortcode.php:265
+#@ better-studio
+msgid "Content Listing 14"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-14-shortcode.php:15
+#@ better-studio
+msgid "3 Column of simple listing"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-15-shortcode.php:11
+#: includes/shortcodes/content-listing/class-bm-content-tab-listing-shortcode.php:269
+#@ better-studio
+msgid "Content Listing 15"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-15-shortcode.php:13
+#@ better-studio
+msgid "2 Column of simple listing"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:11
+#@ better-studio
+msgid "Content Listing 16"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:13
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:13
+#: includes/shortcodes/content-listing/class-bm-content-listing-19-shortcode.php:13
+#@ better-studio
+msgid "3 Column of different category"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:285
+#: includes/shortcodes/content-listing/class-bm-content-listing-17-shortcode.php:213
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:267
+#: includes/shortcodes/content-listing/class-bm-content-listing-19-shortcode.php:211
+#@ better-studio
+msgid "Column 1"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:291
+#: includes/shortcodes/content-listing/class-bm-content-listing-17-shortcode.php:219
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:273
+#: includes/shortcodes/content-listing/class-bm-content-listing-19-shortcode.php:217
+#@ better-studio
+msgid "Column 1 Category"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:299
+#: includes/shortcodes/content-listing/class-bm-content-listing-17-shortcode.php:227
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:281
+#: includes/shortcodes/content-listing/class-bm-content-listing-19-shortcode.php:226
+#@ better-studio
+msgid "Column 1 Tags"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:348
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:443
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:538
+#: includes/shortcodes/content-listing/class-bm-content-listing-17-shortcode.php:276
+#: includes/shortcodes/content-listing/class-bm-content-listing-17-shortcode.php:371
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:330
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:426
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:522
+#: includes/shortcodes/content-listing/class-bm-content-listing-19-shortcode.php:275
+#: includes/shortcodes/content-listing/class-bm-content-listing-19-shortcode.php:371
+#@ better-studio
+msgid "Configures posts to show in column. Leave empty to use theme default number of posts."
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:363
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:458
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:553
+#: includes/shortcodes/content-listing/class-bm-content-listing-17-shortcode.php:291
+#: includes/shortcodes/content-listing/class-bm-content-listing-17-shortcode.php:386
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:345
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:441
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:537
+#: includes/shortcodes/content-listing/class-bm-content-listing-19-shortcode.php:290
+#: includes/shortcodes/content-listing/class-bm-content-listing-19-shortcode.php:386
+#@ better-studio
+msgid "Select custom icon for column."
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:368
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:463
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:558
+#: includes/shortcodes/content-listing/class-bm-content-listing-17-shortcode.php:296
+#: includes/shortcodes/content-listing/class-bm-content-listing-17-shortcode.php:391
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:350
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:446
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:542
+#: includes/shortcodes/content-listing/class-bm-content-listing-19-shortcode.php:295
+#: includes/shortcodes/content-listing/class-bm-content-listing-19-shortcode.php:391
+#@ better-studio
+msgid "Hide Content listing Heading?"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:372
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:467
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:562
+#: includes/shortcodes/content-listing/class-bm-content-listing-17-shortcode.php:300
+#: includes/shortcodes/content-listing/class-bm-content-listing-17-shortcode.php:395
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:354
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:450
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:546
+#: includes/shortcodes/content-listing/class-bm-content-listing-19-shortcode.php:299
+#: includes/shortcodes/content-listing/class-bm-content-listing-19-shortcode.php:395
+#@ better-studio
+msgid "You can hide content listing heading with turning on this field."
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:379
+#: includes/shortcodes/content-listing/class-bm-content-listing-17-shortcode.php:307
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:361
+#: includes/shortcodes/content-listing/class-bm-content-listing-19-shortcode.php:306
+#@ better-studio
+msgid "Column 2"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:386
+#: includes/shortcodes/content-listing/class-bm-content-listing-17-shortcode.php:314
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:368
+#: includes/shortcodes/content-listing/class-bm-content-listing-19-shortcode.php:313
+#@ better-studio
+msgid "Column 2 Category"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:394
+#: includes/shortcodes/content-listing/class-bm-content-listing-17-shortcode.php:322
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:377
+#: includes/shortcodes/content-listing/class-bm-content-listing-19-shortcode.php:322
+#@ better-studio
+msgid "Column 2 Tags"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:474
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:457
+#@ better-studio
+msgid "Column 3"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:481
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:464
+#@ better-studio
+msgid "Column 3 Category"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-16-shortcode.php:489
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:473
+#@ better-studio
+msgid "Column 3 Tags"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-17-shortcode.php:11
+#@ better-studio
+msgid "Content Listing 17"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-17-shortcode.php:13
+#@ better-studio
+msgid "2 Column of different category"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-18-shortcode.php:11
+#@ better-studio
+msgid "Content Listing 18"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-19-shortcode.php:11
+#@ better-studio
+msgid "Content Listing 19"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-2-shortcode.php:12
+#@ better-studio
+msgid "Content Listing 2"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-2-shortcode.php:14
+#@ better-studio
+msgid "Modern listing with 2, 3 and 4 column option"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-2-shortcode.php:234
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-11-shortcode.php:219
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-12-shortcode.php:206
+#: includes/shortcodes/user-listing/class-bm-user-listing-1-shortcode.php:245
+#: includes/shortcodes/user-listing/class-bm-user-listing-2-shortcode.php:251
+#@ better-studio
+msgid "Columns"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-3-shortcode.php:11
+#: includes/shortcodes/content-listing/class-bm-content-tab-listing-shortcode.php:221
+#@ better-studio
+msgid "Content Listing 3"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-3-shortcode.php:13
+#@ better-studio
+msgid "2 Column, Thumbnail listing right"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-4-shortcode.php:13
+#: includes/shortcodes/content-listing/class-bm-content-tab-listing-shortcode.php:225
+#@ better-studio
+msgid "Content Listing 4"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-4-shortcode.php:15
+#@ better-studio
+msgid "2 Column, Thumbnail listing left"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-5-shortcode.php:11
+#: includes/shortcodes/content-listing/class-bm-content-tab-listing-shortcode.php:229
+#@ better-studio
+msgid "Content Listing 5"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-5-shortcode.php:13
+#@ better-studio
+msgid "2 Column, Simple listing right"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-6-shortcode.php:13
+#: includes/shortcodes/content-listing/class-bm-content-tab-listing-shortcode.php:233
+#@ better-studio
+msgid "Content Listing 6"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-6-shortcode.php:15
+#@ better-studio
+msgid "2 Column, Simple listing left"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-7-shortcode.php:13
+#: includes/shortcodes/content-listing/class-bm-content-tab-listing-shortcode.php:237
+#@ better-studio
+msgid "Content Listing 7"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-7-shortcode.php:15
+#@ better-studio
+msgid "1 Blog , 3 Column thumbnail listing"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-8-shortcode.php:13
+#: includes/shortcodes/content-listing/class-bm-content-tab-listing-shortcode.php:241
+#@ better-studio
+msgid "Content Listing 8"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-8-shortcode.php:15
+#@ better-studio
+msgid "1 Blog , 2 Column thumbnail listing"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-9-shortcode.php:13
+#: includes/shortcodes/content-listing/class-bm-content-tab-listing-shortcode.php:245
+#@ better-studio
+msgid "Content Listing 9"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-listing-9-shortcode.php:15
+#@ better-studio
+msgid "1 Blog , 3 Column simple listing"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-tab-listing-shortcode.php:12
+#@ better-studio
+msgid "Content Tab Listing"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-tab-listing-shortcode.php:14
+#@ better-studio
+msgid "Tabs listing of unlimited categories."
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-tab-listing-shortcode.php:215
+#@ better-studio
+msgid "Listing Style"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-tab-listing-shortcode.php:275
+#@ better-studio
+msgid "Select listing style for tabs."
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-tab-listing-shortcode.php:280
+#@ better-studio
+msgid "Tab Categories"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-tab-listing-shortcode.php:287
+#@ better-studio
+msgid "Search, select and sort categories. First category is main tab"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-tab-listing-shortcode.php:292
+#@ better-studio
+msgid "Tab Tags"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-tab-listing-shortcode.php:299
+#@ better-studio
+msgid "Search and select tags."
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-content-tab-listing-shortcode.php:341
+#@ better-studio
+msgid "Configures posts to show in listing. Leave empty to use theme default number of content listing."
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-listing.php:50
+#@ better-studio
+msgid "Read More... <i class=\"fa fa-chevron-right\"></i>"
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-listing.php:57
+#@ better-studio
+msgid "Read More..."
+msgstr ""
+
+#: includes/shortcodes/content-listing/class-bm-listing.php:89
+#: includes/shortcodes/content-listing/class-bm-listing.php:91
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:141
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:251
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:352
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:453
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:556
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:660
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:762
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:862
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:962
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:1062
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-11-shortcode.php:17
+#@ better-studio
+msgid "Latest Posts"
+msgstr ""
+
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:26
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-11-shortcode.php:170
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-12-shortcode.php:164
+#@ better-studio
+msgid "Post Formats"
+msgstr ""
+
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:30
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-11-shortcode.php:174
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-12-shortcode.php:168
+#@ better-studio
+msgid "All Post Formats"
+msgstr ""
+
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:31
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-11-shortcode.php:175
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-12-shortcode.php:169
+#@ better-studio
+msgid "Videos"
+msgstr ""
+
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:32
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-11-shortcode.php:176
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-12-shortcode.php:170
+#@ better-studio
+msgid "Audios"
+msgstr ""
+
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:33
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-11-shortcode.php:177
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-12-shortcode.php:171
+#@ better-studio
+msgid "Gallery"
+msgstr ""
+
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:133
+#@ better-studio
+msgid "Slider Listing 1"
+msgstr ""
+
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:135
+#@ better-studio
+msgid "Slider listing with main slider 1 style"
+msgstr ""
+
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:243
+#@ better-studio
+msgid "Slider Listing 2"
+msgstr ""
+
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:245
+#@ better-studio
+msgid "Slider listing with main slider 2 style"
+msgstr ""
+
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:344
+#@ better-studio
+msgid "Slider Listing 3"
+msgstr ""
+
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:346
+#@ better-studio
+msgid "Slider listing with main slider 3 style"
+msgstr ""
+
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:445
+#@ better-studio
+msgid "Slider Listing 4"
+msgstr ""
+
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:447
+#@ better-studio
+msgid "Slider listing with main slider 4 style"
+msgstr ""
+
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:548
+#@ better-studio
+msgid "Slider Listing 5"
+msgstr ""
+
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:550
+#@ better-studio
+msgid "Slider listing with main slider 5 style"
+msgstr ""
+
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:652
+#@ better-studio
+msgid "Slider Listing 6"
+msgstr ""
+
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:654
+#@ better-studio
+msgid "Slider listing with main slider 6 style"
+msgstr ""
+
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:754
+#@ better-studio
+msgid "Slider Listing 7"
+msgstr ""
+
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:756
+#@ better-studio
+msgid "Slider listing with main slider 7 style"
+msgstr ""
+
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:854
+#@ better-studio
+msgid "Slider Listing 8"
+msgstr ""
+
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:856
+#@ better-studio
+msgid "Slider listing with main slider 8 style"
+msgstr ""
+
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:954
+#@ better-studio
+msgid "Slider Listing 9"
+msgstr ""
+
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:956
+#@ better-studio
+msgid "Slider listing with main slider 9 style"
+msgstr ""
+
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:1054
+#@ better-studio
+msgid "Slider Listing 10"
+msgstr ""
+
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-1-10-shortcode.php:1056
+#@ better-studio
+msgid "Slider listing with main slider 10 style"
+msgstr ""
+
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-11-shortcode.php:9
+#@ better-studio
+msgid "Slider Listing 11"
+msgstr ""
+
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-11-shortcode.php:11
+#@ better-studio
+msgid "Carousel slider listing with 2 and 3 column"
+msgstr ""
+
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-11-shortcode.php:204
+#@ better-studio
+msgid "Show post excerpt in slider?"
+msgstr ""
+
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-12-shortcode.php:9
+#@ better-studio
+msgid "Slider Listing 12"
+msgstr ""
+
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-12-shortcode.php:11
+#@ better-studio
+msgid "Carousel slider listing with 2 & 3 column"
+msgstr ""
+
+#: includes/shortcodes/slider-listing/class-bm-slider-listing-12-shortcode.php:17
+#@ better-studio
+msgid "Latest Galleries"
+msgstr ""
+
+#: includes/shortcodes/user-listing/class-bm-user-listing-1-shortcode.php:12
+#@ better-studio
+msgid "User Listing 1"
+msgstr ""
+
+#: includes/shortcodes/user-listing/class-bm-user-listing-1-shortcode.php:21
+#: includes/shortcodes/user-listing/class-bm-user-listing-2-shortcode.php:21
+#: template-site-map.php:39
+#@ better-studio
+msgid "Authors"
+msgstr ""
+
+#: includes/shortcodes/user-listing/class-bm-user-listing-1-shortcode.php:64
+#: includes/shortcodes/user-listing/class-bm-user-listing-2-shortcode.php:65
+#@ better-studio
+msgid "Total: "
+msgstr ""
+
+#: includes/shortcodes/user-listing/class-bm-user-listing-1-shortcode.php:177
+#: includes/shortcodes/user-listing/class-bm-user-listing-2-shortcode.php:184
+#@ better-studio
+msgid "Configures number of users to show. default is 5."
+msgstr ""
+
+#: includes/shortcodes/user-listing/class-bm-user-listing-1-shortcode.php:190
+#: includes/shortcodes/user-listing/class-bm-user-listing-2-shortcode.php:197
+#@ better-studio
+msgid "Show All Users Count"
+msgstr ""
+
+#: includes/shortcodes/user-listing/class-bm-user-listing-1-shortcode.php:193
+#: includes/shortcodes/user-listing/class-bm-user-listing-2-shortcode.php:200
+#@ better-studio
+msgid "Show all users count number with current conditions."
+msgstr ""
+
+#: includes/shortcodes/user-listing/class-bm-user-listing-1-shortcode.php:199
+#: includes/shortcodes/user-listing/class-bm-user-listing-2-shortcode.php:205
+#@ better-studio
+msgid "Order by"
+msgstr ""
+
+#: includes/shortcodes/user-listing/class-bm-user-listing-1-shortcode.php:203
+#: includes/shortcodes/user-listing/class-bm-user-listing-2-shortcode.php:209
+#@ better-studio
+msgid "ID"
+msgstr ""
+
+#: includes/shortcodes/user-listing/class-bm-user-listing-1-shortcode.php:204
+#: includes/shortcodes/user-listing/class-bm-user-listing-2-shortcode.php:210
+#@ better-studio
+msgid "Post Count"
+msgstr ""
+
+#: includes/shortcodes/user-listing/class-bm-user-listing-1-shortcode.php:205
+#: includes/shortcodes/user-listing/class-bm-user-listing-2-shortcode.php:211
+#@ better-studio
+msgid "Display Name"
+msgstr ""
+
+#: includes/shortcodes/user-listing/class-bm-user-listing-1-shortcode.php:206
+#: includes/shortcodes/user-listing/class-bm-user-listing-2-shortcode.php:212
+#@ better-studio
+msgid "User Name"
+msgstr ""
+
+#: includes/shortcodes/user-listing/class-bm-user-listing-1-shortcode.php:207
+#: includes/shortcodes/user-listing/class-bm-user-listing-2-shortcode.php:213
+#@ better-studio
+msgid "Nicename"
+msgstr ""
+
+#: includes/shortcodes/user-listing/class-bm-user-listing-1-shortcode.php:220
+#: includes/shortcodes/user-listing/class-bm-user-listing-2-shortcode.php:226
+#@ better-studio
+msgid "ASC"
+msgstr ""
+
+#: includes/shortcodes/user-listing/class-bm-user-listing-1-shortcode.php:221
+#: includes/shortcodes/user-listing/class-bm-user-listing-2-shortcode.php:227
+#@ better-studio
+msgid "DESC"
+msgstr ""
+
+#: includes/shortcodes/user-listing/class-bm-user-listing-1-shortcode.php:228
+#: includes/shortcodes/user-listing/class-bm-user-listing-2-shortcode.php:234
+#@ better-studio
+msgid "User Role"
+msgstr ""
+
+#: includes/shortcodes/user-listing/class-bm-user-listing-1-shortcode.php:232
+#: includes/shortcodes/user-listing/class-bm-user-listing-2-shortcode.php:238
+#@ better-studio
+msgid "All"
+msgstr ""
+
+#: includes/shortcodes/user-listing/class-bm-user-listing-1-shortcode.php:233
+#: includes/shortcodes/user-listing/class-bm-user-listing-2-shortcode.php:239
+#@ better-studio
+msgid "Super Admin"
+msgstr ""
+
+#: includes/shortcodes/user-listing/class-bm-user-listing-1-shortcode.php:234
+#: includes/shortcodes/user-listing/class-bm-user-listing-2-shortcode.php:240
+#@ better-studio
+msgid "Administrator"
+msgstr ""
+
+#: includes/shortcodes/user-listing/class-bm-user-listing-1-shortcode.php:235
+#: includes/shortcodes/user-listing/class-bm-user-listing-2-shortcode.php:241
+#@ better-studio
+msgid "Editor"
+msgstr ""
+
+#: includes/shortcodes/user-listing/class-bm-user-listing-1-shortcode.php:236
+#: includes/shortcodes/user-listing/class-bm-user-listing-2-shortcode.php:242
+#@ better-studio
+msgid "Author"
+msgstr ""
+
+#: includes/shortcodes/user-listing/class-bm-user-listing-1-shortcode.php:237
+#: includes/shortcodes/user-listing/class-bm-user-listing-2-shortcode.php:243
+#@ better-studio
+msgid "Contributor"
+msgstr ""
+
+#: includes/shortcodes/user-listing/class-bm-user-listing-1-shortcode.php:238
+#: includes/shortcodes/user-listing/class-bm-user-listing-2-shortcode.php:244
+#@ better-studio
+msgid "Subscriber"
+msgstr ""
+
+#: includes/shortcodes/user-listing/class-bm-user-listing-1-shortcode.php:257
+#: includes/shortcodes/user-listing/class-bm-user-listing-2-shortcode.php:264
+#@ better-studio
+msgid "Heading"
+msgstr ""
+
+#: includes/shortcodes/user-listing/class-bm-user-listing-1-shortcode.php:264
+#: includes/shortcodes/user-listing/class-bm-user-listing-2-shortcode.php:271
+#@ better-studio
+msgid "Heading Icon (Optional)"
+msgstr ""
+
+#: includes/shortcodes/user-listing/class-bm-user-listing-2-shortcode.php:12
+#@ better-studio
+msgid "User Listing 2"
+msgstr ""
+
+#: includes/widgets/class-bm-posts-listing-widget.php:41
+#: includes/widgets/class-bm-recent-tab-widget.php:56
+#@ better-studio
+msgid "Thumbnail Style"
+msgstr ""
+
+#: includes/widgets/class-bm-posts-listing-widget.php:45
+#: includes/widgets/class-bm-recent-tab-widget.php:60
+#@ better-studio
+msgid "Modern Style"
+msgstr ""
+
+#: includes/widgets/class-bm-posts-listing-widget.php:49
+#: includes/widgets/class-bm-recent-tab-widget.php:64
+#@ better-studio
+msgid "Highlight Style"
+msgstr ""
+
+#: includes/widgets/class-bm-posts-listing-widget.php:73
+#: includes/widgets/class-bm-recent-tab-widget.php:93
+#@ better-studio
+msgid "Tag"
+msgstr ""
+
+#: includes/widgets/class-bm-posts-listing-widget.php:78
+#: includes/widgets/class-bm-recent-tab-widget.php:99
+#@ better-studio
+msgid "Select Tags..."
+msgstr ""
+
+#: includes/widgets/class-bm-posts-listing-widget.php:83
+#: includes/widgets/class-bm-recent-tab-widget.php:18
+#: includes/widgets/class-bm-recent-tab-widget.php:105
+#@ better-studio
+msgid "Number Of Posts"
+msgstr ""
+
+#: includes/widgets/class-bm-posts-listing-widget.php:90
+#: includes/widgets/class-bm-recent-tab-widget.php:115
+#@ better-studio
+msgid "Show Read More Button?"
+msgstr ""
+
+#: includes/widgets/class-bm-posts-listing-widget.php:99
+#@ better-studio
+msgid "BetterStudio - Posts Listing"
+msgstr ""
+
+#: includes/widgets/class-bm-posts-listing-widget.php:100
+#@ better-studio
+msgid "Recent and Popular Posts Listing"
+msgstr ""
+
+#: includes/widgets/class-bm-recent-tab-widget.php:22
+#@ better-studio
+msgid "Add Tab"
+msgstr ""
+
+#: includes/widgets/class-bm-recent-tab-widget.php:23
+#: includes/widgets/class-bm-recent-tab-widget.php:24
+#@ better-studio
+msgid "Delete Tab"
+msgstr ""
+
+#: includes/widgets/class-bm-recent-tab-widget.php:28
+#@ better-studio
+msgid "Tab Title (Optional)"
+msgstr ""
+
+#: includes/widgets/class-bm-recent-tab-widget.php:32
+#@ better-studio
+msgid "Category name is default title"
+msgstr ""
+
+#: includes/widgets/class-bm-recent-tab-widget.php:38
+#@ better-studio
+msgid "Tab Icon"
+msgstr ""
+
+#: includes/widgets/class-bm-recent-tab-widget.php:127
+#@ better-studio
+msgid "BetterStudio - Recent Tab"
+msgstr ""
+
+#: includes/widgets/class-bm-recent-tab-widget.php:128
+#@ better-studio
+msgid "Recent Tabbed Posts Listing"
+msgstr ""
+
+#: includes/widgets/class-bm-wc-cart-widget.php:18
+#@ better-studio
+msgid "BetterStudio - WooCommerce Cart"
+msgstr ""
+
+#: includes/widgets/class-bm-wc-cart-widget.php:19
+#@ better-studio
+msgid "Shop cart widget ( use in aside logo and topbar)"
+msgstr ""
+
+#: sidebar-shop.php:4
+#: sidebar.php:4
+#@ better-studio
+msgid "Sample Widget Title"
+msgstr ""
+
+#: sidebar-shop.php:5
+#: sidebar.php:5
+#@ better-studio
+msgid "Nothing yet."
+msgstr ""
+
+#: single.php:64
+#@ better-studio
+msgid "Categories: "
+msgstr ""
+
+#: single.php:72
+#@ better-studio
+msgid "Tags: "
+msgstr ""
+
+#: template-archive.php:21
+#@ better-studio
+msgid "Latest posts"
+msgstr ""
+
+#: template-archive.php:33
+#@ better-studio
+msgid "Posts by month"
+msgstr ""
+
+#: template-archive.php:40
+#@ better-studio
+msgid "Posts by year"
+msgstr ""
+
+#: template-archive.php:49
+#: template-site-map.php:27
+#: vc_templates/vc_wp_categories.php:4
+#@ better-studio
+msgid "Categories"
+msgstr ""
+
+#: template-archive.php:60
+#@ better-studio
+msgid "Writers"
+msgstr ""
+
+#: template-site-map.php:22
+#: vc_templates/vc_wp_pages.php:4
+#@ better-studio
+msgid "Pages"
+msgstr ""
+
+#: vc_templates/vc_wp_meta.php:4
+#@ better-studio
+msgid "Meta"
+msgstr ""
+
+#: vc_templates/vc_wp_recentcomments.php:4
+#@ better-studio
+msgid "Recent Comments"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:18
+#@ better-studio
+msgctxt "woocommerce"
+msgid "Default sorting"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:19
+#@ better-studio
+msgctxt "woocommerce"
+msgid "Sort by popularity"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:20
+#@ better-studio
+msgctxt "woocommerce"
+msgid "Sort by average rating"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:21
+#@ better-studio
+msgctxt "woocommerce"
+msgid "Sort by newness"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:22
+#@ better-studio
+msgctxt "woocommerce"
+msgid "Sort by price: low to high"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:23
+#@ better-studio
+msgctxt "woocommerce"
+msgid "Sort by price: high to low"
+msgstr ""
+
+#: woocommerce/single-product/up-sells.php:39
+#@ better-studio
+msgctxt "woocommerce"
+msgid "You may also like&hellip;"
+msgstr ""
+
+#: includes/class-bm-bbpress.php:65
+#@ better-studio
+msgctxt "bbpress"
+msgid "Tagged:"
+msgstr ""
+
+#: woocommerce/single-product/related.php:36
+#@ better-studio
+msgctxt "woocommerce"
+msgid "Related Products"
+msgstr ""
+
+#: 404.php:12
+#@ better-studio
+msgid "Page Not Found!"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1989
+#@ better-studio
+msgid "Page & Posts"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2188
+#@ better-studio
+msgid "Post Navigation Links"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2192
+#@ better-studio
+msgid "Show Previous and Next Posts in Single Page?"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2194
+#@ better-studio
+msgid "Enabling this will add a Previous and Next post link in the single post page."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2199
+#@ better-studio
+msgid "Previous and Nest Posts Style"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2200
+#@ better-studio
+msgid "Select style of Previous and Next posts link in single page."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2228
+#@ better-studio
+msgid "Share Box Location"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2229
+#@ better-studio
+msgid "Select location of share box in posts single page."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2234
+#@ better-studio
+msgid "Bottom of post"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2233
+#@ better-studio
+msgid "Top of post"
+msgstr ""
+
+#: includes/class-bm-blocks.php:3060
+#@ better-studio
+msgid "Previous Article"
+msgstr ""
+
+#: includes/class-bm-blocks.php:3066
+#@ better-studio
+msgid "Next Article"
+msgstr ""
+
+#: includes/shortcodes/class-bm-recent-tab-shortcode.php:31
+#@ better-studio
+msgid "Review"
+msgstr ""
+
+#: includes/shortcodes/class-bm-recent-tab-shortcode.php:110
+#: includes/widgets/class-bm-posts-listing-widget.php:62
+#: includes/widgets/class-bm-recent-tab-widget.php:81
+#@ better-studio
+msgid "Review Posts"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1585
+#@ better-studio
+msgid "Use Light Box For Images Link"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1589
+#@ better-studio
+msgid "With enabling this link for bigger size of images will be opened in same page with beautiful lightbox."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1593
+#@ better-studio
+msgid "Back Top Button"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1598
+#@ better-studio
+msgid "Show Back To Top Button"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:1602
+#@ better-studio
+msgid "Enabling this option will add a \"Back To Top\" button to pages."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2103
+#@ better-studio
+msgid "No Duplicate Posts In Homepage Blocks?"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2106
+#@ better-studio
+msgid "If you have a lot of content or when you are using latest posts slider, you can see duplicate in featured area and homepage blocks. enabling this feature will remove duplicates."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2235
+#@ better-studio
+msgid "Both Top & Bottom of post"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2337
+#@ better-studio
+msgid "Reset Typography settings"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2342
+#@ better-studio
+msgid "Are you sure for resetting typography?"
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:2343
+#@ better-studio
+msgid "This allows you to reset all typography fields to default."
+msgstr ""
+
+#: includes/class-better-mag-bf-setup.php:7714
+#@ better-studio
+msgctxt "Panel title"
+msgid "Theme Options"
+msgstr ""
+
+#: includes/class-better-mag-last-versions-compatibility.php:203
+#: includes/class-better-mag-last-versions-compatibility.php:208
+#@ better-studio
+msgid "BetterMag social counter options successfully moved to <b>Better Social Counter</b> plugin options."
+msgstr ""
+
+#: includes/class-better-mag-last-versions-compatibility.php:203
+#@ better-studio
+msgid "Better Social Counter Options"
+msgstr ""
+
+#: includes/class-better-mag-last-versions-compatibility.php:208
+#@ better-studio
+msgid "Active/Install Better Social Counter Here"
+msgstr ""
+
+#: includes/class-better-mag.php:1138
+#@ better-studio
+msgid "Typography options resets to default."
+msgstr ""
+
+#: includes/class-better-mag.php:1143
+#@ better-studio
+msgid "All Caches was cleaned."
+msgstr ""
+
+#: includes/class-bm-blocks.php:472
+#: includes/class-bm-blocks.php:597
+#@ better-studio
+msgid "Browse Author Articles"
+msgstr ""
+
+#: includes/class-bm-blocks.php:473
+#: includes/class-bm-blocks.php:598
+#, php-format
+#@ better-studio
+msgid "%s Articles"
+msgstr ""
+
+#: includes/libs/better-framework/admin-panel/class-better-admin-panel.php:134
+#: includes/libs/better-framework/admin-panel/class-better-admin-panel.php:135
+#: includes/libs/better-framework/admin-panel/class-better-admin-panel.php:136
+#: includes/libs/better-framework/admin-panel/class-better-admin-panel.php:193
+#: includes/libs/better-framework/admin-panel/class-better-admin-panel.php:194
+#: includes/libs/better-framework/admin-panel/class-better-admin-panel.php:195
+#@ better-studio
+msgid "<strong>Better</strong>Studio"
+msgstr ""
+
+#: includes/libs/better-framework/class-better-framework.php:783
+#@ better-studio
+msgid "An error occurred while doing action."
+msgstr ""
+
+#: includes/libs/class-tgm-plugin-activation.php:170
+#, php-format
+#@ better-studio
+msgid "There is a new update for %1$s."
+msgid_plural "There are several plugins updates available %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/libs/class-tgm-plugin-activation.php:178
+#@ better-studio
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/libs/class-tgm-plugin-activation.php:179
+#@ better-studio
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/libs/class-tgm-plugin-activation.php:565
+#, php-format
+#@ better-studio
+msgid "The following plugin was activated successfully: %s."
+msgstr ""
+
+#: includes/libs/class-tgm-plugin-activation.php:1125
+#@ better-studio
+msgid "External Link"
+msgstr ""
+
+#: includes/libs/class-tgm-plugin-activation.php:1147
+#@ better-studio
+msgid "Not Updated"
+msgstr ""
+
+#: includes/libs/class-tgm-plugin-activation.php:1149
+#@ better-studio
+msgid "Active"
+msgstr ""
+
+#: includes/shortcodes/user-listing/class-bm-user-listing-1-shortcode.php:174
+#: includes/shortcodes/user-listing/class-bm-user-listing-2-shortcode.php:181
+#@ better-studio
+msgid "Number of Users"
+msgstr ""
+
+#: includes/shortcodes/user-listing/class-bm-user-listing-1-shortcode.php:182
+#: includes/shortcodes/user-listing/class-bm-user-listing-2-shortcode.php:189
+#@ better-studio
+msgid "Show Each User Posts Count"
+msgstr ""
+
+#: includes/shortcodes/user-listing/class-bm-user-listing-1-shortcode.php:185
+#: includes/shortcodes/user-listing/class-bm-user-listing-2-shortcode.php:192
+#@ better-studio
+msgid "Shows each user posts count."
+msgstr ""
+
+#: includes/shortcodes/user-listing/class-bm-user-listing-1-shortcode.php:283
+#: includes/shortcodes/user-listing/class-bm-user-listing-2-shortcode.php:290
+#@ better-studio
+msgid "Exclude Users"
+msgstr ""
+
+#: includes/shortcodes/user-listing/class-bm-user-listing-1-shortcode.php:286
+#: includes/shortcodes/user-listing/class-bm-user-listing-2-shortcode.php:293
+#@ better-studio
+msgid "Separate users IDs with comma ( , ) for excluding them from result."
+msgstr ""
+
+#: comments.php:13
+#@ better-studio
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:15
+#@ better-studio
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:17
+#@ better-studio
+msgid "1 Comment"
+msgstr ""
+
+#: includes/class-better-gallery-slider.php:23
+#@ better-studio
+msgid "Gallery Type"
+msgstr ""
+
+#: includes/class-better-gallery-slider.php:40
+#@ better-studio
+msgid "Gallery Title"
+msgstr ""
+
+#: includes/class-better-gallery-slider.php:31
+#@ better-studio
+msgid "Gallery Skin"
+msgstr ""
+

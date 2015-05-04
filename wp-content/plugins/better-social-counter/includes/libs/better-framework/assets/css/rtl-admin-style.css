@@ -1,0 +1,65 @@
+/***
+ * TODO Refactor this
+ **/
+
+@font-face {
+    font-family: 'BYekan';
+    src: url('../fonts/BYekan.eot?#') format('eot'),  /* IE6–8 */
+    url('../fonts/BYekan.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/BYekan.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+.metabox-holder .better-section .better-heading h3, .better-section .better-heading h3 {
+    font-family: 'BYekan',"Open Sans",sans-serif !important;
+    font-weight: normal;
+}
+
+#better-panel .fright {
+    float: left;
+}
+#better-panel .fleft {
+    float: right;
+}
+
+.better-header .logo-sec {
+    float: right;
+}
+
+#better-nav {
+    float: right;
+}
+#better-nav>ul>li a .dashicons {
+    float: right;
+}
+#better-nav>ul>li.child_active>a:after, #better-nav>ul>li a.active_tab:after {
+    right: inherit;
+    left: 0;
+    border-left-color: #fcfcfc;
+    border-right-color: transparent;
+}
+
+.better-repeater-item .better-repeater-item-title .handle-repeator-item {
+    float: left;
+    margin-right: 0px;
+    margin-left: -10px;
+}
+.better-repeater-item .better-remove-repeater-item-btn {
+    float: left;
+}
+
+
+#better-panel .better-footer .reset-sec {
+    float: right;
+}
+
+.better-controls-color-option .better-color-picker-preview {
+    left: inherit;
+    right: -24px;
+    height: 22px;
+    top: 6px;
+}
+
+.better-ajax-suggest-search-results {
+    left: inherit;
+    right: 11px;
+}

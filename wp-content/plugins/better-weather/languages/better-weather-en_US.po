@@ -1,0 +1,390 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BetterWeather v1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-05-12 21:05:07+0000\n"
+"Last-Translator: ‌BetterStudio <betterstudio.net@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: better-weather.php:143
+#@ better-weather
+msgid "BetterWeather Widget"
+msgstr ""
+
+#: better-weather.php:148
+#: better-weather.php:232
+#@ better-weather
+msgid "Content"
+msgstr ""
+
+#: better-weather.php:155
+#: better-weather.php:239
+#: includes/widget/class-bw-widget.php:88
+#@ better-weather
+msgid "Location:"
+msgstr ""
+
+#: better-weather.php:158
+#: better-weather.php:242
+#@ better-weather
+msgid "Enter location ( latitude,longitude ) for showing forecast."
+msgstr ""
+
+#: better-weather.php:158
+#: better-weather.php:242
+#@ better-weather
+msgid "How to find location values!?"
+msgstr ""
+
+#: better-weather.php:164
+#@ better-weather
+msgid "Location Custom Name:"
+msgstr ""
+
+#: better-weather.php:170
+#: includes/widget/class-bw-widget.php:103
+#@ better-weather
+msgid "Widget Style:"
+msgstr ""
+
+#: better-weather.php:173
+#: includes/widget/class-bw-widget.php:105
+#@ better-weather
+msgid "Modern Style"
+msgstr ""
+
+#: better-weather.php:174
+#: includes/widget/class-bw-widget.php:106
+#@ better-weather
+msgid "Normal Style"
+msgstr ""
+
+#: better-weather.php:179
+#@ better-weather
+msgid "Show next 4 days forecast!?"
+msgstr ""
+
+#: better-weather.php:182
+#@ better-weather
+msgid "Yes"
+msgstr ""
+
+#: better-weather.php:183
+#@ better-weather
+msgid "No"
+msgstr ""
+
+#: better-weather.php:188
+#: includes/widget/class-bw-widget.php:116
+#@ better-weather
+msgid "Background Style:"
+msgstr ""
+
+#: better-weather.php:191
+#: includes/widget/class-bw-widget.php:118
+#@ better-weather
+msgid "Natural Photo"
+msgstr ""
+
+#: better-weather.php:192
+#: includes/widget/class-bw-widget.php:119
+#@ better-weather
+msgid "Static Color"
+msgstr ""
+
+#: better-weather.php:199
+#: includes/widget/class-bw-widget.php:124
+#@ better-weather
+msgid "Background Color:"
+msgstr ""
+
+#: better-weather.php:205
+#: better-weather.php:256
+#: includes/widget/class-bw-widget.php:129
+#@ better-weather
+msgid "Icons Style:"
+msgstr ""
+
+#: better-weather.php:208
+#: better-weather.php:259
+#@ better-weather
+msgid "Animated Icons"
+msgstr ""
+
+#: better-weather.php:209
+#: better-weather.php:260
+#@ better-weather
+msgid "Static Icons"
+msgstr ""
+
+#: better-weather.php:216
+#: better-weather.php:267
+#: includes/widget/class-bw-widget.php:137
+#@ better-weather
+msgid "Font Color:"
+msgstr ""
+
+#: better-weather.php:227
+#@ better-weather
+msgid "BetterWeather Inline"
+msgstr ""
+
+#: better-weather.php:246
+#@ better-weather
+msgid "Inline Size:"
+msgstr ""
+
+#: better-weather.php:249
+#@ better-weather
+msgid "Large"
+msgstr ""
+
+#: better-weather.php:250
+#@ better-weather
+msgid "medium"
+msgstr ""
+
+#: better-weather.php:251
+#@ better-weather
+msgid "small"
+msgstr ""
+
+#: includes/generator/class-bw-frontend.php:42
+#@ better-weather
+msgid "January"
+msgstr ""
+
+#: includes/generator/class-bw-frontend.php:43
+#@ better-weather
+msgid "February"
+msgstr ""
+
+#: includes/generator/class-bw-frontend.php:44
+#@ better-weather
+msgid "March"
+msgstr ""
+
+#: includes/generator/class-bw-frontend.php:45
+#@ better-weather
+msgid "April"
+msgstr ""
+
+#: includes/generator/class-bw-frontend.php:46
+#@ better-weather
+msgid "May"
+msgstr ""
+
+#: includes/generator/class-bw-frontend.php:47
+#@ better-weather
+msgid "June"
+msgstr ""
+
+#: includes/generator/class-bw-frontend.php:48
+#@ better-weather
+msgid "July"
+msgstr ""
+
+#: includes/generator/class-bw-frontend.php:49
+#@ better-weather
+msgid "August"
+msgstr ""
+
+#: includes/generator/class-bw-frontend.php:50
+#@ better-weather
+msgid "September"
+msgstr ""
+
+#: includes/generator/class-bw-frontend.php:51
+#@ better-weather
+msgid "October"
+msgstr ""
+
+#: includes/generator/class-bw-frontend.php:52
+#@ better-weather
+msgid "November"
+msgstr ""
+
+#: includes/generator/class-bw-frontend.php:53
+#@ better-weather
+msgid "December"
+msgstr ""
+
+#: includes/generator/class-bw-frontend.php:56
+#@ better-weather
+msgid "Sat"
+msgstr ""
+
+#: includes/generator/class-bw-frontend.php:57
+#@ better-weather
+msgid "Sun"
+msgstr ""
+
+#: includes/generator/class-bw-frontend.php:58
+#@ better-weather
+msgid "Mon"
+msgstr ""
+
+#: includes/generator/class-bw-frontend.php:59
+#@ better-weather
+msgid "Tue"
+msgstr ""
+
+#: includes/generator/class-bw-frontend.php:60
+#@ better-weather
+msgid "Wed"
+msgstr ""
+
+#: includes/generator/class-bw-frontend.php:61
+#@ better-weather
+msgid "Thu"
+msgstr ""
+
+#: includes/generator/class-bw-frontend.php:62
+#@ better-weather
+msgid "Fri"
+msgstr ""
+
+#: includes/generator/class-bw-frontend.php:65
+#@ better-weather
+msgid "Clear"
+msgstr ""
+
+#: includes/generator/class-bw-frontend.php:66
+#@ better-weather
+msgid "Rain"
+msgstr ""
+
+#: includes/generator/class-bw-frontend.php:67
+#@ better-weather
+msgid "Snow"
+msgstr ""
+
+#: includes/generator/class-bw-frontend.php:68
+#@ better-weather
+msgid "Sleet"
+msgstr ""
+
+#: includes/generator/class-bw-frontend.php:69
+#@ better-weather
+msgid "Wind"
+msgstr ""
+
+#: includes/generator/class-bw-frontend.php:70
+#@ better-weather
+msgid "Fog"
+msgstr ""
+
+#: includes/generator/class-bw-frontend.php:71
+#@ better-weather
+msgid "Cloudy"
+msgstr ""
+
+#: includes/generator/class-bw-frontend.php:72
+#@ better-weather
+msgid "Mostly Cloudy"
+msgstr ""
+
+#: includes/generator/class-bw-frontend.php:73
+#@ better-weather
+msgid "Partly Cloudy"
+msgstr ""
+
+#: includes/generator/class-bw-frontend.php:74
+#@ better-weather
+msgid "Thunderstorm"
+msgstr ""
+
+#: includes/generator/class-bw-frontend.php:75
+#@ better-weather
+msgid "Drizzle"
+msgstr ""
+
+#: includes/generator/class-bw-frontend.php:76
+#@ better-weather
+msgid "Light Rain"
+msgstr ""
+
+#: includes/generator/class-bw-frontend.php:77
+#@ better-weather
+msgid "Overcast"
+msgstr ""
+
+#: includes/options/bw-options.php:8
+#@ better-weather
+msgid "API Options"
+msgstr ""
+
+#: includes/options/bw-options.php:13
+#@ better-weather
+msgid "Forecast.io API Key"
+msgstr ""
+
+#: includes/options/bw-options.php:14
+#@ better-weather
+msgid "Enter your own API Key for Forecast.io"
+msgstr ""
+
+#: includes/options/bw-options.php:15
+#@ better-weather
+msgid "How to get your own API key!?"
+msgstr ""
+
+#: includes/options/class-better-weather-options-page.php:13
+#@ better-weather
+msgid "BetterWeather"
+msgstr ""
+
+#: includes/options/class-better-weather-options-page.php:21
+#@ better-weather
+msgid "BetterWeather Options"
+msgstr ""
+
+#: includes/options/class-wordpress-settings-framework.php:282
+#@ default
+msgid "Save Changes"
+msgstr ""
+
+#: includes/widget/class-bw-widget.php:16
+#@ better-weather
+msgid "Better Weather"
+msgstr ""
+
+#: includes/widget/class-bw-widget.php:17
+#@ better-weather
+msgid "Weather widget"
+msgstr ""
+
+#: includes/widget/class-bw-widget.php:81
+#@ better-weather
+msgid "Title:"
+msgstr ""
+
+#: includes/widget/class-bw-widget.php:96
+#@ better-weather
+msgid "Custom Location Name:"
+msgstr ""
+
+#: includes/widget/class-bw-widget.php:131
+#@ better-weather
+msgid "Animated Icon"
+msgstr ""
+
+#: includes/widget/class-bw-widget.php:132
+#@ better-weather
+msgid "Static Icon"
+msgstr ""
+
